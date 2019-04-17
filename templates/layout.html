@@ -16,7 +16,7 @@
     <nav class="navbar" aria-label="main navigation">
       <div class="navbar-brand">
         <a class="navbar-item{% if this._path == '/' %} is-active{% endif %}" href="{{ '/'|url }}">
-          <h1 class="title">IMDbPY</h1>
+          <h1 class="title has-text-primary">IMDbPY</h1>
         </a>
 
         <span role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
@@ -29,7 +29,7 @@
       <div class="navbar-menu" id="navMenu">
         <div class="navbar-end">
           {% for path, label in bag('main-nav').items() %}
-          <a class="navbar-item{% if this.is_child_of(path) %} is-active{% endif %}" href="{{ path|url }}">
+          <a class="navbar-item{% if this.is_child_of(path) %} is-active{% endif %} has-text-primary" href="{{ path|url }}">
             <span>{{ label }}</span>
           </a>
           {% endfor %}
