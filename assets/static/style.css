@@ -3,6 +3,10 @@ header > *, main > *, footer > * {
   margin: 0 auto;
 }
 
+.navbar-menu .navbar-item {
+  text-transform: uppercase;
+}
+
 .navbar .is-active {
   border-bottom: 2px solid;
 }
@@ -13,8 +17,4 @@ header > *, main > *, footer > * {
 
 .footer svg {
   filter: invert(50%);
-}
-
-.navbar-menu .navbar-item {
-  text-transform: uppercase;
 }
