@@ -1,5 +1,29 @@
+html {
+  background-color: #262624;
+}
+
+.header, .navbar, .footer {
+  background-color: #333333;
+}
+
+.footer {
+  padding: 1.5rem;
+}
+
+.footer svg {
+  filter: invert(50%);
+}
+
 .navbar-menu .navbar-item {
   text-transform: uppercase;
+}
+
+.is-primary, .has-text-primary {
+  color: #F5C518 !important;
+}
+
+.has-background-primary {
+  background-color: #F5C518 !important;
 }
 
 .hero .button {
