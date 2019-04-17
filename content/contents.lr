@@ -2,5 +2,14 @@ title: Welcome to IMDbPY!
 ---
 body:
 
-This is a basic demo website that shows how to use Lektor for a basic
-website with some pages.
+<section class="hero">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="subtitle">
+        IMDbPY is a Python package useful to retrieve and
+        manage the data of the IMDb movie database about movies,
+        people, characters and companies.
+      </h2>
+    </div>
+  </div>
+</section>
