@@ -2,9 +2,17 @@
 
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 
+$white: #FFFFFF;
+$yellow: #F5C518;
 $grey-dark: #262624;
 $grey: #333333;
-$primary: #F5C518;
+$blue-light: #AAFFFF;
+
+$primary: $yellow;
+$text: $white;
+$title-color: $primary;
+$subtitle-color: $white;
+$link: $primary;
 
 $family-sans-serif: "Lato", sans-serif;
 $body-background-color: $grey-dark;
