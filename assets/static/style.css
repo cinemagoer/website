@@ -3,7 +3,13 @@ html {
 }
 
 body, .subtitle {
+  font-family: Lato, sans-serif;
   color: #ffffff;
+}
+
+header > *, main > *, footer > * {
+  max-width: 50em;
+  margin: 0 auto;
 }
 
 .header, .navbar, .footer {

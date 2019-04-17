@@ -8,12 +8,12 @@
 
   <link rel="stylesheet" href="{{ '/static/bulma.min.css'|url }}"/>
   <link rel="stylesheet" href="{{ '/static/style.css'|url }}"/>
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet"/>
 
   <script defer src="{{ '/static/bulma-burger.js'|url }}"></script>
 </head>
 <body>
   <header>
-    <div class="container">
     <nav class="navbar" aria-label="main navigation">
       <div class="navbar-brand">
         <a class="navbar-item{% if this._path == '/' %} is-active{% endif %}" href="{{ '/'|url }}">
@@ -37,7 +37,6 @@
         </div>
       </div>
     </nav>
-    </div> <!-- container -->
   </header>
 
   <main>
@@ -45,7 +44,6 @@
   </main>
 
   <footer class="footer">
-    <div class="container">
     <div class="level">
       <div class="level-item">
         <p class="content">
@@ -63,7 +61,6 @@
         </a>
       </div>
     </div>
-    </div> <!-- container -->
   </footer>
 </body>
 </html>

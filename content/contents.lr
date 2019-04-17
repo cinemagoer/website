@@ -4,16 +4,14 @@ body:
 
 <section class="hero">
   <div class="hero-body">
-    <div class="container">
-      <h2 class="subtitle">
-        IMDbPY is a <a href="https://www.python.org/">Python</a> package
-        useful to retrieve and manage the data
-        of the <a href="https://www.imdb.com/">IMDb</a> movie database
-        about movies, people, characters and companies.
-      </h2>
+    <h2 class="subtitle">
+      IMDbPY is a <a href="https://www.python.org/">Python</a> package
+      useful to retrieve and manage the data
+      of the <a href="https://www.imdb.com/">IMDb</a> movie database
+      about movies, people, characters and companies.
+    </h2>
 
-      <a href="/downloads" class="button has-background-primary has-text-weight-bold is-uppercase">Download</a>
-      <a href="https://imdbpy.readthedocs.io/" class="button is-primary is-outlined has-text-weight-bold is-uppercase">Read the Docs</a>
-    </div>
+    <a href="/downloads" class="button has-background-primary has-text-weight-bold is-uppercase">Download</a>
+    <a href="https://imdbpy.readthedocs.io/" class="button is-primary is-outlined has-text-weight-bold is-uppercase">Read the Docs</a>
   </div>
 </section>
