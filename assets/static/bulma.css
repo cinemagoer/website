@@ -1499,7 +1499,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
     margin-left: calc(-0.375em - 1px);
     margin-right: calc(-0.375em - 1px); }
   .button:hover, .button.is-hovered {
-    border-color: #FFFFFF;
+    border-color: #b5b5b5;
     color: #F5C518; }
   .button:focus, .button.is-focused {
     border-color: #3273dc;
@@ -2873,7 +2873,7 @@ a.navbar-item,
   a.navbar-item:hover, a.navbar-item.is-active,
   .navbar-link:hover,
   .navbar-link.is-active {
-    background-color: #fafafa;
+    background-color: inherit;
     color: #F5C518; }
 
 .navbar-item {
@@ -2980,7 +2980,7 @@ a.navbar-item,
   .navbar {
     min-height: 3.25rem; }
     .navbar.is-spaced {
-      padding: 1rem 2rem; }
+      padding: 1rem 0; }
       .navbar.is-spaced .navbar-start,
       .navbar.is-spaced .navbar-end {
         align-items: center; }
@@ -3122,6 +3122,6 @@ a.navbar-item,
     background-color: transparent; }
 
   .navbar-item.has-dropdown:hover .navbar-link, .navbar-item.has-dropdown.is-active .navbar-link {
-    background-color: #fafafa; } }
+    background-color: inherit; } }
 .hero.is-fullheight-with-navbar {
   min-height: calc(100vh - 3.25rem); }

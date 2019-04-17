@@ -3,6 +3,10 @@ header > *, main > *, footer > * {
   margin: 0 auto;
 }
 
+a:hover {
+  border-bottom: 1px solid;
+}
+
 .navbar-menu .navbar-item {
   text-transform: uppercase;
 }
