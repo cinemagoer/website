@@ -1,7 +1,3 @@
-html {
-  background-color: #262624;
-}
-
 body, .subtitle {
   color: #ffffff;
 }
@@ -11,12 +7,8 @@ header > *, main > *, footer > * {
   margin: 0 auto;
 }
 
-.header, .navbar, .footer {
-  background-color: #333333;
-}
-
 .navbar .is-active {
-  border-bottom: 2px solid #F5C518;
+  border-bottom: 2px solid;
 }
 
 .footer {
@@ -29,12 +21,4 @@ header > *, main > *, footer > * {
 
 .navbar-menu .navbar-item {
   text-transform: uppercase;
-}
-
-.is-primary, .has-text-primary {
-  color: #F5C518 !important;
-}
-
-.has-background-primary {
-  background-color: #F5C518 !important;
 }

@@ -2,6 +2,13 @@
 
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 
+$grey-dark: #262624;
+$grey: #333333;
+$primary: #F5C518;
+
 $family-sans-serif: "Lato", sans-serif;
+$body-background-color: $grey-dark;
+$navbar-background-color: $grey;
+$footer-background-color: $grey;
 
 @import "../imdbpy-bulma/bulma.sass"
