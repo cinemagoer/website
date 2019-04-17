@@ -1,6 +1,6 @@
 header > *, main > *, footer > * {
-  max-width: 50em;
-  margin: 0 auto;
+  max-width: 40em;
+  margin: 1rem auto;
 }
 
 a:hover {
@@ -8,6 +8,7 @@ a:hover {
 }
 
 ul {
+  padding: 1rem;
   list-style: unset;
 }
 
