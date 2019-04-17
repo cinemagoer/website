@@ -16,6 +16,10 @@ header > *, main > *, footer > * {
   background-color: #333333;
 }
 
+.navbar .is-active {
+  border-bottom: 2px solid #F5C518;
+}
+
 .footer {
   padding: 1.5rem;
 }
