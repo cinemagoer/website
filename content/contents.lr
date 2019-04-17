@@ -6,10 +6,14 @@ body:
   <div class="hero-body">
     <div class="container">
       <h2 class="subtitle">
-        IMDbPY is a Python package useful to retrieve and
-        manage the data of the IMDb movie database about movies,
-        people, characters and companies.
+        IMDbPY is a <a href="https://www.python.org/">Python</a> package
+        useful to retrieve and manage the data
+        of the <a href="https://www.imdb.com/">IMDb</a> movie database
+        about movies, people, characters and companies.
       </h2>
+
+      <a href="/downloads" class="button is-primary">Download</a>
+      <a href="https://imdbpy.readthedocs.io/" class="button is-primary is-outlined">Read the Docs</a>
     </div>
   </div>
 </section>
