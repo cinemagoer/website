@@ -19,4 +19,11 @@ $body-background-color: $grey-dark;
 $navbar-background-color: $grey;
 $footer-background-color: $grey;
 
-@import "../imdbpy-bulma/bulma.sass"
+@import "../imdbpy-bulma/sass/utilities/_all.sass";
+@import "../imdbpy-bulma/sass/base/_all.sass";
+@import "../imdbpy-bulma/sass/layout/_all.sass";
+@import "../imdbpy-bulma/sass/elements/button.sass";
+@import "../imdbpy-bulma/sass/elements/container.sass";
+@import "../imdbpy-bulma/sass/elements/title.sass";
+@import "../imdbpy-bulma/sass/components/level.sass";
+@import "../imdbpy-bulma/sass/components/navbar.sass";
