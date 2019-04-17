@@ -2980,7 +2980,7 @@ a.navbar-item,
   .navbar {
     min-height: 3.25rem; }
     .navbar.is-spaced {
-      padding: 1rem 0; }
+      padding: 1rem 2rem; }
       .navbar.is-spaced .navbar-start,
       .navbar.is-spaced .navbar-end {
         align-items: center; }
@@ -3125,3 +3125,6 @@ a.navbar-item,
     background-color: inherit; } }
 .hero.is-fullheight-with-navbar {
   min-height: calc(100vh - 3.25rem); }
+
+li {
+  display: list-item; }

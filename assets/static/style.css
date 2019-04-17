@@ -7,6 +7,10 @@ a:hover {
   border-bottom: 1px solid;
 }
 
+ul {
+  list-style: unset;
+}
+
 .navbar-menu .navbar-item {
   text-transform: uppercase;
 }
