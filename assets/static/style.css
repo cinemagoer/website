@@ -2,6 +2,10 @@ html {
   background-color: #262624;
 }
 
+body, .subtitle {
+  color: #ffffff;
+}
+
 .header, .navbar, .footer {
   background-color: #333333;
 }
