@@ -193,7 +193,7 @@ a {
   a strong {
     color: currentColor; }
   a:hover {
-    color: #363636; }
+    color: #F5C518; }
 
 code {
   background-color: whitesmoke;
@@ -1499,8 +1499,8 @@ a.has-text-danger:hover, a.has-text-danger:focus {
     margin-left: calc(-0.375em - 1px);
     margin-right: calc(-0.375em - 1px); }
   .button:hover, .button.is-hovered {
-    border-color: #b5b5b5;
-    color: #363636; }
+    border-color: #FFFFFF;
+    color: #F5C518; }
   .button:focus, .button.is-focused {
     border-color: #3273dc;
     color: #363636; }
