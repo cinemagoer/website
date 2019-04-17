@@ -12,7 +12,7 @@ body:
         about movies, people, characters and companies.
       </h2>
 
-      <a href="/downloads" class="button is-primary">Download</a>
+      <a href="/downloads" class="button has-background-primary">Download</a>
       <a href="https://imdbpy.readthedocs.io/" class="button is-primary is-outlined">Read the Docs</a>
     </div>
   </div>
