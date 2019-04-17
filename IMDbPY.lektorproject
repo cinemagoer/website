@@ -1,2 +1,5 @@
 [project]
 name = IMDbPY
+
+[servers.ghpages]
+target = ghpages://imdbpy/imdbpy.github.io
