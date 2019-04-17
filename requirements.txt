@@ -1,0 +1,1 @@
+-e git://github.com/uyar/lektor.git#egg=lektor
