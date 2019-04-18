@@ -15,14 +15,16 @@ body:
       <a href="/downloads" class="button has-background-primary has-text-weight-bold is-uppercase">Download</a>
       <a href="https://imdbpy.readthedocs.io/" class="button is-primary is-outlined has-text-weight-bold is-uppercase">Read the Docs</a>
     </div> <!-- buttons -->
-
-    <ul>
-      <li>Written in pure Python 3.</li>
-      <li>Platform-independent.</li>
-      <li>Can retrieve data from both the IMDb's web server and a local copy of the whole database.</li>
-      <li>Released under the terms of the <a href="https://github.com/alberanid/imdbpy/blob/master/docs/LICENSE.txt">GPL 2 license</a>.</li>
-      <li>A simple API.</li>
-      <li>IMDbPY is used by many other projects. <a href="ecosystem.html#programs">Curious about that?</a></li>
-    </ul>
   </div> <!-- hero-body -->
 </section>
+
+<div class="content">
+  <ul>
+    <li>Written in pure Python 3.</li>
+    <li>Platform-independent.</li>
+    <li>Can retrieve data from both the IMDb's web server and a local copy of the whole database.</li>
+    <li>Released under the terms of the <a href="https://github.com/alberanid/imdbpy/blob/master/docs/LICENSE.txt">GPL 2 license</a>.</li>
+    <li>A simple API.</li>
+    <li>IMDbPY is used by many other projects. <a href="ecosystem.html#programs">Curious about that?</a></li>
+  </ul>
+</div>
