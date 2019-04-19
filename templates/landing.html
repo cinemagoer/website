@@ -10,7 +10,7 @@
   {% for newsitem in newsitems %}
   <article class="block">
     <header>
-      <time datetime="{{ newsitem.date }}">{{ newsitem.date|dateformat('YYYY MMMM DD')}}</time>
+      <time datetime="{{ newsitem.date }}">{{ newsitem.date|dateformat('MMM d, YYYY')}}</time>
       <h2>{{ newsitem.title }}</h2>
     </header>
     <p>{{ newsitem.lead_in }}</p>
