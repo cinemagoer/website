@@ -223,17 +223,17 @@ footer {
 }
 
 #twitter {
-    background-image: url("../images/twitter.png");
+    background-image: url("/images/twitter.png");
 }
 
 #twitter:hover {
-    background-image: url("../images/twitter-hightlighted.png");
+    background-image: url("/images/twitter-hightlighted.png");
 }
 
 #github {
-    background-image: url("../images/github.png");
+    background-image: url("/images/github.png");
 }
 
 #github:hover {
-    background-image: url("../images/github-highlighted.png");
+    background-image: url("/images/github-highlighted.png");
 }
