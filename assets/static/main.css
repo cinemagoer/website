@@ -48,7 +48,7 @@ h2 {
 }
 
 ul {
-    padding: 0;
+    padding: 0.75rem;
 }
 
 li {
@@ -59,13 +59,13 @@ li {
 li:before {
     content: "";
     display: inline-block;
-    width: 6px;
-    height: 6px;
+    width: 0.375rem;
+    height: 0.375rem;
     background: #666666;
     border-radius: 50%;
     position: absolute;
-    left: -12px;
-    top: 10px;
+    left: -0.75rem;
+    top: 0.625rem;
 }
 
 a {
@@ -81,8 +81,8 @@ a:active {
 }
 
 button {
-    height: 40px;
-    padding: 0 20px;
+    height: 2.5em;
+    padding: 0 1.25rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -122,7 +122,7 @@ button {
 }
 
 .container {
-    width: 960px;
+    max-width: 40em;
     margin: 0 auto;
 }
 
@@ -173,15 +173,16 @@ nav {
 
 #logo {
     color: #F5C518;
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: bold;
+    text-transform: none;
 }
 
 #intro {
-    font-size: 24px;
+    font-size: 1.5em;
     color: #E6E6E6;
     position: relative;
-    margin-top: 70px;
+    margin-top: 4rem;
 }
 
 #intro:before {
