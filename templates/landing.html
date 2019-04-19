@@ -5,18 +5,13 @@
 
 {% set newsitems = site.query('/news').filter((F._model == 'newsitem').and(F.status != 'expired')).order_by('-date').limit(3) %}
 {% if newsitems.count() > 0 %}
+{%   from "macros/newsitem.html" import render_newsitem %}
 <section>
   <h1>News</h2>
   {% for newsitem in newsitems %}
-  <article class="block">
-    <header>
-      <time datetime="{{ newsitem.date }}">{{ newsitem.date|dateformat('MMM d, YYYY')}}</time>
-      <h2>{{ newsitem.title }}</h2>
-    </header>
-    <p>{{ newsitem.lead_in }}</p>
-    <p>{{ newsitem.body }}</p>
-  </article>
+    {{ render_newsitem(newsitem) }}
   {% endfor %}
 </section>
 {% endif %}
+<p><a href="/news/">All news</a></p>
 {% endblock %}
