@@ -182,7 +182,7 @@ nav {
     font-size: 1.5em;
     color: #E6E6E6;
     position: relative;
-    margin-top: 4rem;
+    margin: 4rem 0 2rem 0;
 }
 
 #intro:before {
@@ -191,14 +191,14 @@ nav {
     position: absolute;
     left: 0;
     bottom: 0;
-    width: 80px;
-    height: 4px;
+    width: 5rem;
+    height: 0.25rem;
     background: #4D4D4D;
 }
 
 footer {
     background: #333333;
-    padding: 30px 0;
+    padding: 2rem 0;
 }
 
 #footer-container {
@@ -211,7 +211,7 @@ footer {
 
 .footer-item {
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 1rem;
 }
 
 .footer-icon {
