@@ -1,23 +1,21 @@
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 16px;
     color: #999999;
     background: #262624;
-    letter-spacing: 0.2px;
+    letter-spacing: 1.5;
 }
 
 pre {
     background: #0D161A;
     border: 1px solid #30302F;
     border-radius: 6px;
-    padding: 0 20px;
+    padding: 0 1rem;
 }
 
 .microlight {
     font-family: 'Source Code Pro', monospace;
-    font-size: 14px;
-    white-space: pre;
+    font-size: 0.9rem;
     color: #8FC0CC;
 }
 
