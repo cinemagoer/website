@@ -195,9 +195,13 @@ nav {
     background: #4D4D4D;
 }
 
+header, main {
+    padding: 0 1.5rem;
+}
+
 footer {
     background: #333333;
-    padding: 2rem 0;
+    padding: 2rem 1rem;
 }
 
 #footer-container {
