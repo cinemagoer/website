@@ -26,6 +26,8 @@ body:
   </ul>
 </div>
 
+<section>
+  <h2>Code example</h2>
 <pre>
 <code class="microlight">
 # create and instance of the IMDb class
@@ -40,3 +42,40 @@ print(the_matrix['director'])
 print(ia.get_movie_infoset())
 </code>
 </pre>
+</section>
+
+<section>
+  <h1>How to contribute</h1>
+  <p>Do you like this project? You can help by:</p>
+  <ul>
+    <li>
+      <a href="http://sourceforge.net/donate/index.php?group_id=105998" target="_blank">Making a donation
+        <img src="/images/project-support.jpg" alt="Support the IMDbPY project">
+      </a>
+    </li>
+    <li>Spreading the word!</li>
+    <li>
+      <a href="/development/index.html#contribute">Contribute development</a>.
+    </li>
+  </ul>
+</section>
+
+<section>
+  <h1>News</h1>
+  <article class="block">
+    <header>
+      <time datetime="2014-05-04">2014 May 04</time>
+      <h2>IMDbPY 5.0 released</h2>
+    </header>
+    <p>After a very long time, IMDbPY 5.0 is here!</p>
+    <p>In this release: may fixes to stay aligned with the IMDb web site. As always, IMDbPY is looking for developers; if you want to contribute, <a href="https://lists.sourceforge.net/lists/listinfo/imdbpy-devel">contact us</a>.
+      <a href="docs/Changelog.txt">Changelog for the 5.0 version</a>.</p>
+  </article>
+  <article class="block">
+    <header>
+      <time datetime="2014-01-25">2014 Jan 25</time>
+      <h2>New website</h2>
+    </header>
+    <p>We're glad to have a new wonderful web site, kindly created by <b>Alberto Malagoli</b> of <a href="http://studiodeep.it/">Studio DE&P</a>.  Thanks, Alberto!</p>
+  </article>
+</section>
