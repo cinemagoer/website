@@ -36,6 +36,7 @@ ia = IMDb()
 the_matrix = ia.get_movie('0133093')
 print(the_matrix['director'])
 
-# show all the information sets avaiable for Movie objectsprint(ia.get_movie_infoset())
+# show all the information sets avaiable for Movie objects
+print(ia.get_movie_infoset())
 </code>
 </pre>
