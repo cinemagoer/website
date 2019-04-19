@@ -13,7 +13,8 @@
 </head>
 
 <body>
-<nav>
+<header>
+<nav aria-label="main navigation">
   <div class="container">
     <a id="logo" class="nav-item{% if this._path == '/' %} nav-item-active{% endif %}" href="{{ '/'|url }}">IMDbPY</a>
     {% for path, label in bag('main-nav').items() %}
@@ -21,10 +22,13 @@
     {% endfor %}
   </div>
 </nav>
+<header>
 
+<main>
 <div class="container">
   {% block body %}{% endblock %}
 </div>
+</main>
 
 <footer>
   <div class="container">
