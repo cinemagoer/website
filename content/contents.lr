@@ -3,8 +3,7 @@ title: Welcome to IMDbPY!
 body:
 
 <div id="intro">
-  IMDbPY is a Python package useful to retrieve and manage the data of the IMDb movie database about movies, people,
-  characters and companies.
+  IMDbPY is a Python package for retrieving and managing the data of the IMDb movie database about movies, people, and companies.
 </div>
 
 <p>
@@ -14,12 +13,12 @@ body:
 
 <div>
   <ul>
-    <li> Written in pure Python 3.</li>
-    <li> Platform-independent.</li>
-    <li> Can retrieve data from both the IMDb's web server and a local copy of the whole database.</li>
-    <li> Released under the terms of the <a href="#">GPL 2 license.</a></li>
+    <li>Written in pure Python 3.</li>
+    <li>Platform-independent.</li>
+    <li>Can retrieve data from both the IMDb's web server and a local copy of the whole database.</li>
+    <li>Released under the terms of the <a href="https://github.com/alberanid/imdbpy/blob/master/docs/LICENSE.txt">GPL 2 license.</a></li>
     <li>A simple API.</li>
-    <li> IMDbPY is used by many other projects. <a href="#">Curious about that?</a></li>
+    <li>IMDbPY is used by many other projects. <a href="#">Curious about that?</a></li>
   </ul>
 </div>
 
@@ -27,15 +26,16 @@ body:
   <h2>Code example</h2>
 <pre>
 <code class="microlight">
-# create and instance of the IMDb class
 from imdb import IMDb
+
+# create an instance of the IMDb class
 ia = IMDb()
 
 # get a movie and print its director(s)
 the_matrix = ia.get_movie('0133093')
 print(the_matrix['director'])
 
-# show all the information sets avaiable for Movie objects
+# show all information sets avaiable for movies
 print(ia.get_movie_infoset())
 </code>
 </pre>
@@ -59,6 +59,7 @@ print(ia.get_movie_infoset())
 
 <section>
   <h1>News</h1>
+
   <article class="block">
     <header>
       <time datetime="2014-05-04">2014 May 04</time>
@@ -68,6 +69,7 @@ print(ia.get_movie_infoset())
     <p>In this release: may fixes to stay aligned with the IMDb web site. As always, IMDbPY is looking for developers; if you want to contribute, <a href="https://lists.sourceforge.net/lists/listinfo/imdbpy-devel">contact us</a>.
       <a href="docs/Changelog.txt">Changelog for the 5.0 version</a>.</p>
   </article>
+
   <article class="block">
     <header>
       <time datetime="2014-01-25">2014 Jan 25</time>
