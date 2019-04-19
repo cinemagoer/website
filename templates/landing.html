@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+{{ this.body }}
+
+{% set newsitems = site.query('/news').filter((F._model == 'newsitem').and(F.status != 'expired')).order_by('-date').limit(3) %}
+{% if newsitems.count() > 0 %}
+<section>
+  <h1>News</h2>
+  {% for newsitem in newsitems %}
+  <article class="block">
+    <header>
+      <time datetime="{{ newsitem.date }}">{{ newsitem.date|dateformat('YYYY MMMM DD')}}</time>
+      <h2>{{ newsitem.title }}</h2>
+    </header>
+    <p>{{ newsitem.lead_in }}</p>
+    <p>{{ newsitem.body }}</p>
+  </article>
+  {% endfor %}
+</section>
+{% endif %}
+{% endblock %}
