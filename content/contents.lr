@@ -8,11 +8,8 @@ body:
 </div>
 
 <p>
-  <button href="/downloads" class="button primary-button">Downloads</a>
-</p>
-
-<p>
-  <button href="https://imdbpy.readthedocs.io/" class="secondary-button">Read the Docs</button>
+  <a href="/downloads" class="button primary-button">Downloads</a>
+  <a href="https://imdbpy.readthedocs.io/" class="button secondary-button">Read the Docs</a>
 </p>
 
 <div>

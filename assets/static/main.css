@@ -79,10 +79,11 @@ a:active {
     color: #C99D00;
 }
 
-button {
+.button {
     height: 2.5em;
     padding: 0 1.25rem;
-    display: flex;
+    margin-right: 1rem;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
     border-radius: 2px;
