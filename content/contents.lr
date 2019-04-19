@@ -1,3 +1,5 @@
+_model: landing
+---
 title: Welcome to IMDbPY!
 ---
 body:
@@ -55,26 +57,4 @@ print(ia.get_movie_infoset())
       <a href="/development/index.html#contribute">Contribute development</a>.
     </li>
   </ul>
-</section>
-
-<section>
-  <h1>News</h1>
-
-  <article class="block">
-    <header>
-      <time datetime="2014-05-04">2014 May 04</time>
-      <h2>IMDbPY 5.0 released</h2>
-    </header>
-    <p>After a very long time, IMDbPY 5.0 is here!</p>
-    <p>In this release: may fixes to stay aligned with the IMDb web site. As always, IMDbPY is looking for developers; if you want to contribute, <a href="https://lists.sourceforge.net/lists/listinfo/imdbpy-devel">contact us</a>.
-      <a href="docs/Changelog.txt">Changelog for the 5.0 version</a>.</p>
-  </article>
-
-  <article class="block">
-    <header>
-      <time datetime="2014-01-25">2014 Jan 25</time>
-      <h2>New website</h2>
-    </header>
-    <p>We're glad to have a new wonderful web site, kindly created by <b>Alberto Malagoli</b> of <a href="http://studiodeep.it/">Studio DE&P</a>.  Thanks, Alberto!</p>
-  </article>
 </section>
