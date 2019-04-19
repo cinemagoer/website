@@ -2,4 +2,4 @@
 name = IMDbPY
 
 [servers.ghpages]
-target = ghpages://imdbpy/imdbpy.github.io
+target = ghpages+https://imdbpy/imdbpy.github.io
