@@ -2,15 +2,16 @@ _model: newsitem
 ---
 status: published
 ---
-date: 2018-08-05
+date: 2019-07-20
 ---
-title: IMDbPY 6.6 released
+title: IMDbPY 6.8 released
 ---
-lead_in: IMDbPY 6.6 is here!
+lead_in: IMDbPY 6.8 is here!
 ---
 body:
 
-In this release multiple parsers were fixed, problems with the certificates were solved, and AKAs from the new dataset get parsed.
+In the release 6.8 (codename "Apollo 11") of IMDbPY, multiple parsers were added and fixed; the new `search_movie_advanced` method allows advanced movie searches.
+
 As always, IMDbPY is looking for developers; if you want to contribute, <a href="https://lists.sourceforge.net/lists/listinfo/imdbpy-devel">contact us</a>. <a href="https://github.com/alberanid/imdbpy/blob/master/docs/Changelog.rst">Changelog</a>.
 
 
