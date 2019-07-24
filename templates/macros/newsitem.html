@@ -4,7 +4,7 @@
       <time datetime="{{ newsitem.date }}">{{ newsitem.date|dateformat('MMM d, YYYY')}}</time>
       <h2>{{ newsitem.title }}</h2>
     </header>
-    <p>{{ newsitem.lead_in }}</p>
+    <h3>{{ newsitem.lead_in }}</h3>
     <p>{{ newsitem.body }}</p>
   </article>
 {% endmacro %}
