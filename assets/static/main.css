@@ -259,3 +259,9 @@ header, main, footer {
 .news h3 {
   margin-top: 1em;
 }
+
+.more {
+  margin-top: .5rem;
+  font-size: 90%;
+  text-align: right;
+}
