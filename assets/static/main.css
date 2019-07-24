@@ -71,11 +71,11 @@ a {
     color: #F5C518;
 }
 
-a:hover {
+a:hover:not(.button) {
     color: #E5B60B;
 }
 
-a:active {
+a:active:not(.button) {
     color: #C99D00;
 }
 
@@ -119,6 +119,14 @@ a:active {
 .secondary-button:active {
     border: 1px solid #C99D00;
     color: #C99D00;
+}
+
+a.button {
+    text-decoration: none;
+}
+
+a.primary-button:hover {
+    color: #333333;
 }
 
 .container {
