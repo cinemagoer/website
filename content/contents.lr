@@ -3,7 +3,7 @@ _model: landing
 body:
 
 <div id="intro">
-  IMDbPY is a Python package for retrieving and managing the data of the IMDb movie database about movies, people, and companies.
+  IMDbPY is a Python package for retrieving and managing the data of the IMDb movie database about movies and people.
 </div>
 
 <p>
@@ -11,20 +11,18 @@ body:
   <a href="https://imdbpy.readthedocs.io/" class="button secondary-button">Read the Docs</a>
 </p>
 
-<div>
-  <ul>
-    <li>Written in pure Python 3.</li>
-    <li>Platform-independent.</li>
-    <li>Can retrieve data from both the IMDb's web server and a local copy of the whole database.</li>
-    <li>Released under the terms of the <a href="https://github.com/alberanid/imdbpy/blob/master/docs/LICENSE.txt">GPL 2 license.</a></li>
-    <li>A simple API.</li>
-    <li>IMDbPY is used by many other projects. <a href="#">Curious about that?</a></li>
-  </ul>
-</div>
+<ul>
+  <li>Written in pure Python 3.</li>
+  <li>Platform-independent.</li>
+  <li>Can retrieve data from both the IMDb's web server and a local copy of the whole database.</li>
+  <li>Released under the terms of the <a href="https://github.com/alberanid/imdbpy/blob/master/docs/LICENSE.txt">GPL 2 license.</a></li>
+  <li>A simple API.</li>
+  <li>IMDbPY is used by many other projects. <a href="#">Curious about that?</a></li>
+</ul>
 
 <section>
   <h2>Code example</h2>
-<pre>
+  <pre>
 <code class="microlight">
 from imdb import IMDb
 
@@ -33,12 +31,13 @@ ia = IMDb()
 
 # get a movie and print its director(s)
 the_matrix = ia.get_movie('0133093')
-print(the_matrix['director'])
+for director in the_matrix['directors']:
+    print(director['name'])
 
 # show all information sets avaiable for movies
 print(ia.get_movie_infoset())
 </code>
-</pre>
+  </pre>
 </section>
 
 <section>
@@ -46,13 +45,15 @@ print(ia.get_movie_infoset())
   <p>Do you like this project? You can help by:</p>
   <ul>
     <li>
-      <a href="http://sourceforge.net/donate/index.php?group_id=105998" target="_blank">Making a donation
+      <a href="http://sourceforge.net/donate/index.php?group_id=105998" target="_blank">Making a donation.
         <img src="/images/project-support.jpg" alt="Support the IMDbPY project">
       </a>
     </li>
     <li>Spreading the word!</li>
     <li>
-      <a href="/development/index.html#contribute">Contribute development</a>.
+      <a href="/development/index.html#contribute">Contributing to development.</a>
     </li>
   </ul>
 </section>
+
+<script src="https://unpkg.com/microlight@0.0.7/microlight.js"></script>
