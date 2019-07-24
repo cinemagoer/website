@@ -241,3 +241,21 @@ header, main, footer {
 #github:hover {
     background-image: url("/images/github-highlighted.png");
 }
+
+.news article {
+  margin-top: 2em;
+  padding: 1rem;
+  background-color: #444444;
+}
+
+.news header {
+  padding: 0;
+}
+
+.news h2 {
+  margin-top: 0;
+}
+
+.news h3 {
+  margin-top: 1em;
+}
