@@ -7,11 +7,10 @@
 {% if newsitems.count() > 0 %}
 {%   from "macros/newsitem.html" import render_newsitem %}
 <section>
-  <h1>News</h2>
+  <h1>News</h1>
   {% for newsitem in newsitems %}
     {{ render_newsitem(newsitem) }}
   {% endfor %}
 </section>
 {% endif %}
-<p><a href="/news/">All news</a></p>
 {% endblock %}
