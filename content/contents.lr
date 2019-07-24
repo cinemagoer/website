@@ -1,7 +1,5 @@
 _model: landing
 ---
-title: Welcome to IMDbPY!
----
 body:
 
 <div id="intro">
