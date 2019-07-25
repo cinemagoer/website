@@ -1,0 +1,41 @@
+body {
+  letter-spacing: 0.2px;
+}
+
+.navbar {
+  border-bottom: 1px solid #404040;
+}
+
+.navbar-item {
+  margin-right: 1rem;
+  text-transform: uppercase;
+}
+
+.navbar-item.is-active:before,
+.navbar-item:hover:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 3rem;
+  height: 2px;
+  background: $primary;
+}
+
+#logo {
+  color: $primary;
+  font-size: 2em;
+  font-weight: bold;
+  text-transform: none;
+}
+
+#intro {
+  font-size: 1.5em;
+  color: $white;
+  margin-top: 4rem;
+}
+
+#github:hover path:nth-child(2),
+#twitter:hover path:nth-child(2) {
+  fill-opacity: 0.9;
+  fill: $primary;
+}

@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro|Source+Sans+Pro:400,700');
+
+$widescreen: 768px;
+
+$white: #E6E6E6;
+$yellow: #F5C518;
+$black: #262624;
+$grey: #333333;
+$grey-light: #999999;
+
+$primary: $yellow;
+
+$family-sans-serif: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Helvetica", "Arial", sans-serif;
+
+$body-background-color: $black;
+$text: $grey-light;
+
+$title-color: $white;
+$subtitle-color: $white;
+$link: $primary;
+$link-hover: $primary;
+
+$navbar-padding-vertical: 1.25rem;
+$navbar-background-color: $black;
+$navbar-item-color: $grey-light;
+$navbar-item-hover-color: $primary;
+$navbar-item-hover-background-color: inherit;
+$navbar-item-active-color: $primary;
+
+$footer-background-color: $grey;
+$footer-padding: 2rem;
