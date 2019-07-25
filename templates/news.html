@@ -5,12 +5,9 @@
 
 {% set newsitems = site.query('/news').filter(F._model == 'newsitem').order_by('-date') %}
 {% from "macros/newsitem.html" import render_newsitem %}
-<section>
-  <h1>News</h1>
-  <div class="news">
+<div class="section">
   {% for newsitem in newsitems %}
     {{ render_newsitem(newsitem) }}
   {% endfor %}
-  </div>
-</section>
+</div>
 {% endblock %}
