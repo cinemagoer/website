@@ -2,25 +2,27 @@ _model: landing
 ---
 body:
 
-<div class="content">
-  <p id="intro">
+<section class="section">
+  <h1 id="intro">
     IMDbPY is a Python package for retrieving and managing the data of the IMDb movie database about movies and people.
-  </p>
+  </h1>
 
-  <p class="buttons is-uppercase has-text-weight-bold">
-    <a href="/downloads" class="button is-primary has-text-grey-dark">Downloads</a>
-    <a href="https://imdbpy.readthedocs.io/" class="button is-outlined has-text-primary">Read the Docs</a>
-  </p>
+  <div class="content">
+    <p class="buttons is-uppercase has-text-weight-bold">
+      <a href="/downloads" class="button is-primary has-text-grey-dark">Downloads</a>
+      <a href="https://imdbpy.readthedocs.io/" class="button is-outlined has-text-primary">Read the Docs</a>
+    </p>
 
-  <ul>
-    <li>Written in pure Python 3.</li>
-    <li>Platform-independent.</li>
-    <li>Can retrieve data from both the IMDb's web server and a local copy of the whole database.</li>
-    <li>Released under the terms of the <a href="https://raw.githubusercontent.com/alberanid/imdbpy/master/LICENSE.txt">GPL 2 license.</a></li>
-    <li>A simple API.</li>
-    <li>IMDbPY is used by many other projects. <a href="#">Curious about that?</a></li>
-  </ul>
-</div>
+    <ul>
+      <li>Written in pure Python 3.</li>
+      <li>Platform-independent.</li>
+      <li>Can retrieve data from both the IMDb's web server and a local copy of the whole database.</li>
+      <li>Released under the terms of the <a href="https://raw.githubusercontent.com/alberanid/imdbpy/master/LICENSE.txt">GPL 2 license.</a></li>
+      <li>A simple API.</li>
+      <li>IMDbPY is used by many other projects. <a href="#">Curious about that?</a></li>
+    </ul>
+  </div>
+</section>
 
 <section class="section">
   <h2 class="subtitle">Code example</h2>
