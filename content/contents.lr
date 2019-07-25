@@ -54,7 +54,7 @@ print(ia.get_movie_infoset())
     </li>
     <li>Spreading the word!</li>
     <li>
-      <a href="/development/index.html#contribute">Contributing to development.</a>
+      <a href="/development/">Contributing to development.</a>
     </li>
   </ul>
   </div>

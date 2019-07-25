@@ -3557,6 +3557,9 @@ pre {
 .button.is-primary:active {
   background-color: #c79e09; }
 
+.section section {
+  margin-top: 2rem; }
+
 #logo {
   color: #f5c518;
   font-size: 2em;
