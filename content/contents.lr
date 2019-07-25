@@ -49,7 +49,7 @@ print(ia.get_movie_infoset())
   <ul>
     <li>
       <a href="http://sourceforge.net/donate/index.php?group_id=105998" target="_blank">Making a donation.
-        <img src="/images/project-support.jpg" alt="Support the IMDbPY project">
+        <img src="/static/images/project-support.jpg" alt="Support the IMDbPY project">
       </a>
     </li>
     <li>Spreading the word!</li>
