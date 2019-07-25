@@ -1,0 +1,15 @@
+_model: project
+---
+kind: service
+---
+sort_key: 31
+---
+title: Optimizing MySQL Queries with EXPLAIN
+---
+author: Morgan Tocker 
+---
+url: https://daycamp4developers.com/product/optimizing-mysql-queries-explain/
+---
+description:
+
+In-deep course about optimization of a MySQL database; it extensively uses the database created by IMDbPY.

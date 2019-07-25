@@ -1,0 +1,15 @@
+_model: project
+---
+kind: program
+---
+sort_key: 16
+---
+title: metals
+---
+author: dblips
+---
+url: https://code.google.com/p/metals/
+---
+description:
+
+metals is a command-line script which retrieves and stores movie metadata from IMDb to local sqlite database. It's released under the MIT license.

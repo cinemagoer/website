@@ -1,0 +1,15 @@
+_model: project
+---
+kind: program
+---
+sort_key: 23
+---
+title: sandoval
+---
+author: Markus Zapke-Gründemann, Stephan Hoyer
+---
+url: https://github.com/keimlink/sandoval
+---
+description:
+
+Sandoval is a movie application build with the Django Framework. Its main purpose is to show the capabilities of Django. Sandoval is released under a BSD license.

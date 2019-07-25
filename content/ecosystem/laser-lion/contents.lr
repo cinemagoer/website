@@ -1,0 +1,15 @@
+_model: project
+---
+kind: service
+---
+sort_key: 32
+---
+title: LaserLion
+---
+author: Gustaf Nilsson
+---
+url: https://laserpanda.com/laserlion/LL.html
+---
+description:
+
+Calculate the average votes of movies for a given person.

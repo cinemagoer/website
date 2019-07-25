@@ -1,0 +1,15 @@
+_model: project
+---
+kind: program
+---
+sort_key: 2
+---
+title: vdbpy
+---
+author: Davide Alberani
+---
+url: https://bitbucket.org/alberanid/vdbpy/
+---
+description:
+
+A set of scripts to manage the VideoDB database from the command line. IMDbPY is a Python package useful to retrieve and manage the data of the IMDb movie database about movies, people, characters and companies.

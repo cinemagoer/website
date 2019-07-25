@@ -1,0 +1,15 @@
+_model: project
+---
+kind: program
+---
+sort_key: 22
+---
+title: meliman
+---
+author: Matthew Trumbell
+---
+url: https://github.com/mrtrumbe/meliman
+---
+description:
+
+A tool for organizing and tagging your media library, released under a BSD license.

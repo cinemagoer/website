@@ -1,0 +1,15 @@
+_model: project
+---
+kind: program
+---
+sort_key: 3
+---
+title: imdbpygw
+---
+author: Davide Alberani
+---
+url: https://bitbucket.org/alberanid/imdbpygw/
+---
+description:
+
+This is a simple gateway to the IMDb site, based on the IMDbPY package; it can be used to access IMDb's data from a simple low-band terminal, as a mobile phone with WAP support.

@@ -1,0 +1,17 @@
+_model: project
+---
+kind: program
+---
+sort_key: 24
+---
+title: folder-theater
+---
+author: Mathieu Leplatre
+---
+url: https://github.com/leplatrem/folder-theater
+---
+description:
+
+Generates a fancy Web page from a folder with movies files. 
+
+Written in Python, released under the Beer-ware License.

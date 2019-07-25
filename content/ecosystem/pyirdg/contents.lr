@@ -1,0 +1,15 @@
+_model: project
+---
+kind: program
+---
+sort_key: 13
+---
+title: pyIRDG
+---
+author: Jef Van den Brandt
+---
+url: https://sourceforge.net/projects/pyirdg/
+---
+description:
+
+pyIRDG is a program written in Python to generate relational datasets in Prolog format, with a Qt GUI. It's released under the GNU GPL license version 2.

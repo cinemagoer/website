@@ -1,0 +1,15 @@
+_model: project
+---
+kind: program
+---
+sort_key: 1
+---
+title: imdbpykit
+---
+author: H. Turgut Uyar, Davide Alberani
+---
+url: https://bitbucket.org/alberanid/imdbpykit/
+---
+description:
+
+imdbpykit is a web interface to every information accessible through IMDbPY; it is able to serve data in both XML and HTML formats. IMDbPY is a Python package useful to retrieve and manage the data of the IMDb movie database about movies, people, characters and companies.

@@ -1,0 +1,15 @@
+_model: project
+---
+kind: program
+---
+sort_key: 15
+---
+title: MythBox
+---
+author: analogue
+---
+url: https://code.google.com/p/mythbox/
+---
+description:
+
+MythBox is a MythTV frontend for the [XBMC](https://xbmc.org/) media player and entertainment hub. It's released under the GPL license.

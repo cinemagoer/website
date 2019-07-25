@@ -1,0 +1,15 @@
+_model: project
+---
+kind: program
+---
+sort_key: 17
+---
+title: SubDownloader
+---
+author: Ivan Garcia
+---
+url: https://www.subdownloader.net/
+---
+description:
+
+An automatic tool to find the subtitles of any video file; it's released under the GPL license.

@@ -1,0 +1,15 @@
+_model: project
+---
+kind: program
+---
+sort_key: 19
+---
+title: quickmovie
+---
+author: Yann Ramin
+---
+url: https://github.com/theatrus/quickmovie
+---
+description:
+
+A movie browser designed around an input list consisting of filesnames which match the approximate name of the movie. By using IMDB, quickmovie can grab cover art, titles, summaries, etc for movies. It's released under the GPL 3 license.

@@ -1,0 +1,15 @@
+_model: project
+---
+kind: program
+---
+sort_key: 14
+---
+title: Diribeo
+---
+author: David Kaufman
+---
+url: https://github.com/anopheles/diribeo
+---
+description:
+
+Diribeo is an open source application which allows you to organize your series collection. It's released under the MIT license.

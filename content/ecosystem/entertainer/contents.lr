@@ -1,0 +1,15 @@
+_model: project
+---
+kind: program
+---
+sort_key: 18
+---
+title: Entertainer
+---
+author: Lauri Taimila
+---
+url: https://launchpad.net/entertainer
+---
+description:
+
+Entertainer aims to be a simple and easy-to-use media center solution for Gnome and XFce desktop environments. Entertainer is written completely in Python using object-oriented programming paradigm; it's released under the GPL license.
