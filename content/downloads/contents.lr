@@ -3,7 +3,7 @@ title: Downloads
 body:
 
 <section class="section">
-  <h2 class="subtitle">License and Disclaimer</h2>
+  <h2 class="title">License and Disclaimer</h2>
 
   <div class="content">
     <ul>
@@ -14,7 +14,7 @@ body:
 </section>
 
 <section class="section">
-  <h2 class="subtitle">Source Code</h2>
+  <h2 class="title">Source Code</h2>
   <p class="buttons is-uppercase has-text-weight-bold">
     <a href="https://github.com/alberanid/imdbpy/archive/master.zip" class="button is-primary has-text-grey-dark">Download</a>
     <a href="https://github.com/alberanid/imdbpy" class="button is-outlined has-text-primary">Go to Repository</a>
@@ -22,7 +22,7 @@ body:
 </section>
 
 <section class="section">
-  <h2 class="subtitle">Official Packages</h2>
+  <h2 class="title">Official Packages</h2>
 
   <div class="content">
     <p>These packages are created and maintained by the distributions' communities. They may be outdated, especially right after a new release (if so, check again in a few days or weeks).</p>
