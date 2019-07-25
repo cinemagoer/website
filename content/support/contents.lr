@@ -2,3 +2,35 @@ title: Support
 ---
 body:
 
+<section class="section">
+  <h2 class="title">Documentation</h2>
+
+  <p>Read the <a href="https://imdbpy.readthedocs.io/">documentation online</a>.</p>
+</section>
+
+<section class="section">
+  <h2 class="title">Mailing list</h2>
+
+  <p class="buttons is-uppercase has-text-weight-bold">
+    <a href="http://lists.sourceforge.net/lists/listinfo/imdbpy-help" class="button is-primary has-text-grey-dark">Subscribe</a>
+  </p>
+
+  <div class="content">
+    <p><a href="mailto:imdbpy-help@lists.sourceforge.net">imdbpy-help@lists.sourceforge.net</a></p>
+
+    <p>The mailing list is open also to non-subscribers (anyone can send emails) but is moderated by default: your first message needs to be approved; if it's on-topic, the succeeding ones will be automatically accepted.</p>
+
+    <p>Archives:</p>
+    <ul>
+      <li><a href="https://sourceforge.net/p/imdbpy/mailman/imdbpy-help/">Sourceforge</a></li>
+      <li><a href="https://www.mail-archive.com/imdbpy-help@lists.sourceforge.net/">mail-archive.com</a></li>
+      <li><a href="https://groups.google.com/forum/#!forum/imdbpy-users">Google groups</a></li>
+    </ul>
+    </div>
+</section>
+
+<section class="section">
+  <h2 class="title">Stack Overflow</h2>
+
+  <p>You can search for the <a href="http://stackoverflow.com/questions/tagged/imdbpy">questions tagged "imdbpy"</a> on stackoverflow.com.</p>
+</section>
