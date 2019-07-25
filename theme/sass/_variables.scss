@@ -9,7 +9,8 @@ $weight-bold: 700;
 $white: hsl(0, 0%, 90%);
 $black: hsl(0, 0%, 15%);
 $grey: lighten($black, 45%);
-$grey-dark: darken($grey, 40%);
+$grey-dark: darken($grey, 35%);
+$grey-darker: darken($grey, 40%);
 $yellow: hsl(47, 91.7%, 52.7%);
 
 $primary: $yellow;
@@ -33,7 +34,7 @@ $navbar-item-hover-color: $primary;
 $navbar-item-hover-background-color: inherit;
 $navbar-item-active-color: $primary;
 
-$footer-background-color: $grey-dark;
+$footer-background-color: $grey-darker;
 $footer-padding: 2rem;
 
 $button-background-color: transparent;
@@ -42,3 +43,5 @@ $button-border-color: $primary;
 $button-hover-border-color: $link-hover;
 $button-padding-vertical: 1.25rem;
 $button-padding-horizontal: 1.25rem;
+
+$box-radius: none;

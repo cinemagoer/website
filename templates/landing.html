@@ -8,12 +8,10 @@
 {%   from "macros/newsitem.html" import render_newsitem %}
 <section class="section">
   <h1 class="title">News</h1>
-  <div class="content news">
   {% for newsitem in newsitems %}
     {{ render_newsitem(newsitem) }}
   {% endfor %}
-  </div>
-  <p class="content more"><a href="/news/">All news...</a></p>
+  <p class="has-text-right is-size-7"><a href="/news/">All news...</a></p>
 </section>
 {% endif %}
 {% endblock %}

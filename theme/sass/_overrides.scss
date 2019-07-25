@@ -9,12 +9,20 @@ pre {
   padding: 0 1.25rem;
 }
 
+article .title:not(:last-child) {
+  margin-bottom: 0.25rem;
+}
+
+article .subtitle {
+  margin-top: 1rem;
+}
+
 .microlight {
   color: #8FC0CC;
 }
 
 .navbar {
-  border-bottom: 1px solid lighten($grey-dark, 5%);
+  border-bottom: 1px solid lighten($grey-darker, 5%);
 }
 
 .navbar-item {
