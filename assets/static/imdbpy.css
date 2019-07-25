@@ -3535,7 +3535,7 @@ pre {
 
 :not(header) > .title {
   position: relative;
-  padding-bottom: 5px; }
+  padding-bottom: 10px; }
 
 :not(header) > .title:before {
   content: "";
