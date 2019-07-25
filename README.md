@@ -1,10 +1,18 @@
-After cloning the repository, install prerequisites::
+After cloning the repository, install the prerequisites:
 
-  pip install -r requirements.txt
+```
+bash
 
-Start the live development server::
+pip install -r requirements.txt
+```
 
-  lektor server
+Start the live development server:
+
+```
+bash
+
+lektor server
+```
 
 Browse to the reported URL.
 
