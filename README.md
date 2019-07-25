@@ -1,3 +1,6 @@
+The site uses the [Lektor](https://www.getlektor.com/) static site
+generator.
+
 ## Installation and Usage
 
 After cloning the repository, install the prerequisites:
@@ -22,7 +25,7 @@ When you're done, push your changes and Travis will automatically
 build and deploy the site. If you don't want to trigger a build
 include the text `[skip ci]` on a separate line in the commit message.
 
-## Files
+## Content
 
 The site content is under the `content` directory. There is
 one directory per page. The content of the page is placed
@@ -35,3 +38,26 @@ file of the new item.
 The `ecosystem` page consists of `project` elements.
 To add a new project copy an existing project and
 edit the `contents.lr` file.
+
+## Style
+
+The site uses a customized version
+of the [Bulma](https://bulma.io/) framework.
+The variables to set and the style overrides
+are in the `theme/sass` directory. If you change something,
+rebuild the CSS file:
+
+```
+sass --sourcemap=none theme/sass/imdbpy.scss:assets/static/imdbpy.css
+```
+
+## Content Modeling
+
+Fields of content types (like news items and projects)
+are stored in `.ini` files under the `models` directory.
+
+For each content type, there has to be a template
+under the `templates` directory.
+
+Templates can use data which is stored in `.json`
+files under the `databags` directory.
