@@ -15,7 +15,8 @@ $yellow: hsl(47, 91.7%, 52.7%);
 
 $primary: $yellow;
 
-$body-background-color: $black;
+$background: $black;
+$body-background-color: $background;
 $text: $grey;
 
 $title-color: $white;
@@ -45,3 +46,6 @@ $button-padding-vertical: 1.25rem;
 $button-padding-horizontal: 1.25rem;
 
 $box-radius: none;
+
+$code: inherit;
+$code-background: inherit;
