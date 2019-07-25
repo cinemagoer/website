@@ -1,31 +1,44 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro|Source+Sans+Pro:400,700');
 
-$widescreen: 768px;
+$widescreen: 720px;
 
-$white: #E6E6E6;
-$yellow: #F5C518;
-$black: #262624;
-$grey: #333333;
-$grey-light: #999999;
+$family-sans-serif: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Helvetica", "Arial", sans-serif;
+$family-monospace: "Source Code Pro", monospace;
+$weight-bold: 700;
+
+$white: hsl(0, 0%, 90%);
+$black: hsl(0, 0%, 15%);
+$grey: lighten($black, 45%);
+$grey-dark: darken($grey, 40%);
+$yellow: hsl(47, 91.7%, 52.7%);
 
 $primary: $yellow;
 
-$family-sans-serif: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Helvetica", "Arial", sans-serif;
-
 $body-background-color: $black;
-$text: $grey-light;
+$text: $grey;
 
 $title-color: $white;
-$subtitle-color: $white;
+$subtitle-color: $title-color;
+$subtitle-size: 1.5em;
+$subtitle-weight: $weight-bold;
+
 $link: $primary;
-$link-hover: $primary;
+$link-hover: darken($link, 6%);
+$link-active: darken($link, 12%);
 
 $navbar-padding-vertical: 1.25rem;
 $navbar-background-color: $black;
-$navbar-item-color: $grey-light;
+$navbar-item-color: $grey;
 $navbar-item-hover-color: $primary;
 $navbar-item-hover-background-color: inherit;
 $navbar-item-active-color: $primary;
 
-$footer-background-color: $grey;
+$footer-background-color: $grey-dark;
 $footer-padding: 2rem;
+
+$button-background-color: transparent;
+$button-hover-color: $link-hover;
+$button-border-color: $primary;
+$button-hover-border-color: $link-hover;
+$button-padding-vertical: 1.25rem;
+$button-padding-horizontal: 1.25rem;

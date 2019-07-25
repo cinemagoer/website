@@ -2,8 +2,19 @@ body {
   letter-spacing: 0.2px;
 }
 
+pre {
+  background: #0D161A;
+  border: 1px solid #30302F;
+  border-radius: 6px;
+  padding: 0 1.25rem;
+}
+
+.microlight {
+  color: #8FC0CC;
+}
+
 .navbar {
-  border-bottom: 1px solid #404040;
+  border-bottom: 1px solid lighten($grey-dark, 5%);
 }
 
 .navbar-item {
@@ -21,10 +32,26 @@ body {
   background: $primary;
 }
 
+.button {
+  border-radius: 2px;
+}
+
+.buttons .button:not(:last-child):not(.is-fullwidth) {
+  margin-right: 1.25rem;
+}
+
+.button.is-primary:hover {
+  background-color: $link-hover;
+}
+
+.button.is-primary:active {
+  background-color: $link-active;
+}
+
 #logo {
   color: $primary;
   font-size: 2em;
-  font-weight: bold;
+  font-weight: $weight-bold;
   text-transform: none;
 }
 
