@@ -1,0 +1,14 @@
+{% macro render_project(project) %}
+  <div class="box has-background-grey-dark">
+    <article>
+      <header>
+        <h1 class="title is-size-4">{{ project.title }}</h2>
+        <p>{{ project.author }}</p>
+      </header>
+      <div class="content">
+        {% if project.url %}<p><a href="{{ project.url }}">Website</a></p>{% endif %}
+        <p>{{ project.description }}</p>
+      </div>
+    </article>
+  </div>
+{% endmacro %}
