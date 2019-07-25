@@ -1,16 +1,12 @@
 After cloning the repository, install the prerequisites:
 
 ```
-bash
-
 pip install -r requirements.txt
 ```
 
 Start the live development server:
 
 ```
-bash
-
 lektor server
 ```
 
