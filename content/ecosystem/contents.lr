@@ -4,8 +4,8 @@ title: Ecosystem
 ---
 body:
 
-<section class="section">
+<div class="section">
   <div class="content">
     <p>If you want to add your project to this list, <a href="mailto:imdbpy-help@lists.sourceforge.net">send an e-mail</a> containing the project's name, URL, author, and a short description (please include the running environment, the programming language and the license).</p>
   </div>
-</section>
+</div>
