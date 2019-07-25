@@ -2,12 +2,12 @@
   <div class="box has-background-grey-dark">
     <article>
       <header>
-        <h1 class="title is-size-4">{{ newsitem.title }}</h2>
+        <h2 class="title is-size-4">{{ newsitem.title }}</h2>
         <time datetime="{{ newsitem.date }}">{{ newsitem.date|dateformat('MMM d, YYYY')}}</time>
       </header>
       <h3 class="subtitle is-size-5">{{ newsitem.lead_in }}</h3>
       <div class="content">
-        <p>{{ newsitem.body }}</p>
+        {{ newsitem.body }}
       </div>
     </article>
   </div>

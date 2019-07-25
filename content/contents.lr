@@ -43,7 +43,7 @@ print(ia.get_movie_infoset())
 </section>
 
 <section class="section">
-  <h1 class="title">How to contribute</h1>
+  <h2 class="title">How to contribute</h2>
   <div class="content">
   <p>Do you like this project? You can help by:</p>
   <ul>
