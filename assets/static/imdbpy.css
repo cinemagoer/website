@@ -3502,17 +3502,17 @@ a.navbar-item,
 body {
   letter-spacing: 0.2px; }
 
-pre {
-  background: #0D161A;
-  border: 1px solid #30302F;
-  border-radius: 6px;
-  padding: 0 1.25rem; }
-
 article .title:not(:last-child) {
   margin-bottom: 0.25rem; }
 
 article .subtitle {
   margin-top: 1rem; }
+
+pre {
+  background: #0D161A;
+  border: 1px solid #30302F;
+  border-radius: 6px;
+  padding: 0 1.25rem; }
 
 .microlight {
   color: #8FC0CC; }
@@ -3532,6 +3532,18 @@ article .subtitle {
   width: 3rem;
   height: 2px;
   background: #f5c518; }
+
+:not(header) > .title {
+  position: relative;
+  padding-bottom: 5px; }
+
+:not(header) > .title:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 3rem;
+  height: 4px;
+  background: #999999; }
 
 .button {
   border-radius: 2px; }
