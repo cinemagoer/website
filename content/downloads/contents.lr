@@ -2,3 +2,87 @@ title: Downloads
 ---
 body:
 
+<section class="section">
+  <h2 class="subtitle">License and Disclaimer</h2>
+
+  <div class="content">
+    <ul>
+      <li>Read the IMDbPY <a href="https://raw.githubusercontent.com/alberanid/imdbpy/master/DISCLAIMER.txt">disclaimer</a>.</li>
+      <li>Licensed under the terms of the <a href="https://raw.githubusercontent.com/alberanid/imdbpy/master/LICENSE.txt">GPL v2 or later License</a>.</li>
+    <ul>
+  </div>
+</section>
+
+<section class="section">
+  <h2 class="subtitle">Source Code</h2>
+  <p class="buttons is-uppercase has-text-weight-bold">
+    <a href="https://github.com/alberanid/imdbpy/archive/master.zip" class="button is-primary has-text-grey-dark">Download</a>
+    <a href="https://github.com/alberanid/imdbpy" class="button is-outlined has-text-primary">Go to Repository</a>
+  </p>
+</section>
+
+<section class="section">
+  <h2 class="subtitle">Official Packages</h2>
+
+  <div class="content">
+    <p>These packages are created and maintained by the distributions' communities. They may be outdated, especially right after a new release (if so, check again in a few days or weeks).</p>
+    <p>We want to thank everyone who have ported IMDbPY to other distributions or operating systems!</p>
+    <p>If you know of other ports or packages, please write to the <a href="development.html#devel-mailing-list">development mailing list</a>.</p>
+  </div>
+
+  <div class="table-container">
+    <table class="table is-striped is-fullwidth" id="official-packages">
+      <thead>
+      <tr>
+        <th>Platform</th>
+        <th>Packages</th>
+        <th>Maintainer</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td><img src="/static/images/debian.png" alt="Debian logo" width="32px" height="32px"> Debian</td>
+        <td><a href="https://packages.debian.org/search?keywords=python3-imdbpy">python3-imdbpy</a></td>
+        <td><a href="https://ekaia.org/">Ana Guerrero López</td>
+      </tr>
+      <tr>
+        <td><img src="/static/images/ubuntu.png" alt="Ubuntu logo" width="32px" height="32px"> Ubuntu</td>
+        <td><a href="https://packages.ubuntu.com/search?suite=default&section=all&arch=any&keywords=python3-imdbpy&searchon=names">python3-imdbpy</a></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><img src="/static/images/fedora.png" alt="Fedora logo" width="32px" height="32px"> Fedora</td>
+        <td><a href="https://apps.fedoraproject.org/packages/python-imdb">python-imdbpy</a></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><img src="/static/images/gentoo.png" alt="Gentoo logo" width="32px" height="32px"> Gentoo</td>
+        <td><a href="https://packages.gentoo.org/package/dev-python/imdbpy">dev-python/imdbpy</a></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><img src="/static/images/freebsd.png" alt="FreeBSD logo" width="32px" height="32px"> FreeBSD</td>
+        <td>
+          <a href="http://www.freebsd.org/cgi/ports.cgi?query=imdbpy&amp;stype=all">py-imdbpy</a>
+          <p class="is-size-7">Also see the <a href="http://www.freshports.org/www/py-imdbpy/">py-imdbpy</a> from freshports.org.</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><img src="/static/images/archlinux.png" alt="Arch Linux logo" width="32px" height="32px"> Arch Linux</td>
+        <td><a href="https://www.archlinux.org/packages/community/any/python-imdbpy/">python-imdbpy</a></td>
+        <td><a href="https://www.archlinux.org/packages/?maintainer=dvzrv">David Runge</a></td>
+      </tr>
+      <tr>
+        <td><img src="/static/images/openbsd.png" alt="OpenBSD logo" width="32px" height="32px"> OpenBSD</td>
+        <td><a href="http://openports.se/misc/py-imdb">py-imdbpy</a></td>
+        <td><a href="http://www.gratisoft.us/todd/">Todd C. Miller</a></td>
+      </tr>
+      <tr>
+        <td><img src="/static/images/openembedded.png" alt="OpenEmbedded logo" width="32px" height="32px"> OpenEmbedded</td>
+        <td><a href="http://www.openembedded.org/">included in base</a></td>
+        <td><a href="http://www.vanille-media.de/">Michael 'Mickey' Lauer</a></td>
+      </tr>
+      </tbody>
+    </table>
+  </div>

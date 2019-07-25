@@ -88,3 +88,7 @@ pre {
   fill-opacity: 0.9;
   fill: $primary;
 }
+
+#official-packages td:not(:last-child) {
+  white-space: nowrap;
+}

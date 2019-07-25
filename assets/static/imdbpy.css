@@ -376,7 +376,7 @@ table th {
 
   .is-size-7-desktop {
     font-size: 0.75rem !important; } }
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 768px) {
   .is-size-1-widescreen {
     font-size: 3rem !important; }
 
@@ -445,13 +445,13 @@ table th {
 @media screen and (min-width: 1024px) {
   .has-text-centered-desktop {
     text-align: center !important; } }
-@media screen and (min-width: 1024px) and (max-width: 719px) {
+@media screen and (min-width: 1024px) and (max-width: 767px) {
   .has-text-centered-desktop-only {
     text-align: center !important; } }
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 768px) {
   .has-text-centered-widescreen {
     text-align: center !important; } }
-@media screen and (min-width: 720px) and (max-width: 1407px) {
+@media screen and (min-width: 768px) and (max-width: 1407px) {
   .has-text-centered-widescreen-only {
     text-align: center !important; } }
 @media screen and (min-width: 1408px) {
@@ -472,13 +472,13 @@ table th {
 @media screen and (min-width: 1024px) {
   .has-text-justified-desktop {
     text-align: justify !important; } }
-@media screen and (min-width: 1024px) and (max-width: 719px) {
+@media screen and (min-width: 1024px) and (max-width: 767px) {
   .has-text-justified-desktop-only {
     text-align: justify !important; } }
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 768px) {
   .has-text-justified-widescreen {
     text-align: justify !important; } }
-@media screen and (min-width: 720px) and (max-width: 1407px) {
+@media screen and (min-width: 768px) and (max-width: 1407px) {
   .has-text-justified-widescreen-only {
     text-align: justify !important; } }
 @media screen and (min-width: 1408px) {
@@ -499,13 +499,13 @@ table th {
 @media screen and (min-width: 1024px) {
   .has-text-left-desktop {
     text-align: left !important; } }
-@media screen and (min-width: 1024px) and (max-width: 719px) {
+@media screen and (min-width: 1024px) and (max-width: 767px) {
   .has-text-left-desktop-only {
     text-align: left !important; } }
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 768px) {
   .has-text-left-widescreen {
     text-align: left !important; } }
-@media screen and (min-width: 720px) and (max-width: 1407px) {
+@media screen and (min-width: 768px) and (max-width: 1407px) {
   .has-text-left-widescreen-only {
     text-align: left !important; } }
 @media screen and (min-width: 1408px) {
@@ -526,13 +526,13 @@ table th {
 @media screen and (min-width: 1024px) {
   .has-text-right-desktop {
     text-align: right !important; } }
-@media screen and (min-width: 1024px) and (max-width: 719px) {
+@media screen and (min-width: 1024px) and (max-width: 767px) {
   .has-text-right-desktop-only {
     text-align: right !important; } }
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 768px) {
   .has-text-right-widescreen {
     text-align: right !important; } }
-@media screen and (min-width: 720px) and (max-width: 1407px) {
+@media screen and (min-width: 768px) and (max-width: 1407px) {
   .has-text-right-widescreen-only {
     text-align: right !important; } }
 @media screen and (min-width: 1408px) {
@@ -742,13 +742,13 @@ a.has-text-danger:hover, a.has-text-danger:focus {
 @media screen and (min-width: 1024px) {
   .is-block-desktop {
     display: block !important; } }
-@media screen and (min-width: 1024px) and (max-width: 719px) {
+@media screen and (min-width: 1024px) and (max-width: 767px) {
   .is-block-desktop-only {
     display: block !important; } }
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 768px) {
   .is-block-widescreen {
     display: block !important; } }
-@media screen and (min-width: 720px) and (max-width: 1407px) {
+@media screen and (min-width: 768px) and (max-width: 1407px) {
   .is-block-widescreen-only {
     display: block !important; } }
 @media screen and (min-width: 1408px) {
@@ -772,13 +772,13 @@ a.has-text-danger:hover, a.has-text-danger:focus {
 @media screen and (min-width: 1024px) {
   .is-flex-desktop {
     display: flex !important; } }
-@media screen and (min-width: 1024px) and (max-width: 719px) {
+@media screen and (min-width: 1024px) and (max-width: 767px) {
   .is-flex-desktop-only {
     display: flex !important; } }
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 768px) {
   .is-flex-widescreen {
     display: flex !important; } }
-@media screen and (min-width: 720px) and (max-width: 1407px) {
+@media screen and (min-width: 768px) and (max-width: 1407px) {
   .is-flex-widescreen-only {
     display: flex !important; } }
 @media screen and (min-width: 1408px) {
@@ -802,13 +802,13 @@ a.has-text-danger:hover, a.has-text-danger:focus {
 @media screen and (min-width: 1024px) {
   .is-inline-desktop {
     display: inline !important; } }
-@media screen and (min-width: 1024px) and (max-width: 719px) {
+@media screen and (min-width: 1024px) and (max-width: 767px) {
   .is-inline-desktop-only {
     display: inline !important; } }
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 768px) {
   .is-inline-widescreen {
     display: inline !important; } }
-@media screen and (min-width: 720px) and (max-width: 1407px) {
+@media screen and (min-width: 768px) and (max-width: 1407px) {
   .is-inline-widescreen-only {
     display: inline !important; } }
 @media screen and (min-width: 1408px) {
@@ -832,13 +832,13 @@ a.has-text-danger:hover, a.has-text-danger:focus {
 @media screen and (min-width: 1024px) {
   .is-inline-block-desktop {
     display: inline-block !important; } }
-@media screen and (min-width: 1024px) and (max-width: 719px) {
+@media screen and (min-width: 1024px) and (max-width: 767px) {
   .is-inline-block-desktop-only {
     display: inline-block !important; } }
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 768px) {
   .is-inline-block-widescreen {
     display: inline-block !important; } }
-@media screen and (min-width: 720px) and (max-width: 1407px) {
+@media screen and (min-width: 768px) and (max-width: 1407px) {
   .is-inline-block-widescreen-only {
     display: inline-block !important; } }
 @media screen and (min-width: 1408px) {
@@ -862,13 +862,13 @@ a.has-text-danger:hover, a.has-text-danger:focus {
 @media screen and (min-width: 1024px) {
   .is-inline-flex-desktop {
     display: inline-flex !important; } }
-@media screen and (min-width: 1024px) and (max-width: 719px) {
+@media screen and (min-width: 1024px) and (max-width: 767px) {
   .is-inline-flex-desktop-only {
     display: inline-flex !important; } }
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 768px) {
   .is-inline-flex-widescreen {
     display: inline-flex !important; } }
-@media screen and (min-width: 720px) and (max-width: 1407px) {
+@media screen and (min-width: 768px) and (max-width: 1407px) {
   .is-inline-flex-widescreen-only {
     display: inline-flex !important; } }
 @media screen and (min-width: 1408px) {
@@ -902,13 +902,13 @@ a.has-text-danger:hover, a.has-text-danger:focus {
 @media screen and (min-width: 1024px) {
   .is-hidden-desktop {
     display: none !important; } }
-@media screen and (min-width: 1024px) and (max-width: 719px) {
+@media screen and (min-width: 1024px) and (max-width: 767px) {
   .is-hidden-desktop-only {
     display: none !important; } }
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 768px) {
   .is-hidden-widescreen {
     display: none !important; } }
-@media screen and (min-width: 720px) and (max-width: 1407px) {
+@media screen and (min-width: 768px) and (max-width: 1407px) {
   .is-hidden-widescreen-only {
     display: none !important; } }
 @media screen and (min-width: 1408px) {
@@ -932,13 +932,13 @@ a.has-text-danger:hover, a.has-text-danger:focus {
 @media screen and (min-width: 1024px) {
   .is-invisible-desktop {
     visibility: hidden !important; } }
-@media screen and (min-width: 1024px) and (max-width: 719px) {
+@media screen and (min-width: 1024px) and (max-width: 767px) {
   .is-invisible-desktop-only {
     visibility: hidden !important; } }
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 768px) {
   .is-invisible-widescreen {
     visibility: hidden !important; } }
-@media screen and (min-width: 720px) and (max-width: 1407px) {
+@media screen and (min-width: 768px) and (max-width: 1407px) {
   .is-invisible-widescreen-only {
     visibility: hidden !important; } }
 @media screen and (min-width: 1408px) {
@@ -2284,15 +2284,15 @@ a.box:active {
         margin-left: 32px;
         margin-right: 32px;
         max-width: none; } }
-  @media screen and (max-width: 719px) {
+  @media screen and (max-width: 767px) {
     .container.is-widescreen {
-      max-width: 656px; } }
+      max-width: 704px; } }
   @media screen and (max-width: 1407px) {
     .container.is-fullhd {
       max-width: 1344px; } }
-  @media screen and (min-width: 720px) {
+  @media screen and (min-width: 768px) {
     .container {
-      max-width: 656px; } }
+      max-width: 704px; } }
   @media screen and (min-width: 1408px) {
     .container {
       max-width: 1344px; } }
@@ -2423,12 +2423,12 @@ a.box:active {
   font-size: 1.5rem; }
 
 .table {
-  background-color: #e6e6e6;
-  color: #333333; }
+  background-color: #262626;
+  color: #999999; }
   .table td,
   .table th {
     border: 1px solid #dbdbdb;
-    border-width: 0 0 1px;
+    border-width: 0;
     padding: 0.5em 0.75em;
     vertical-align: top; }
     .table td.is-white,
@@ -2512,8 +2512,8 @@ a.box:active {
     background-color: transparent; }
     .table thead td,
     .table thead th {
-      border-width: 0 0 2px;
-      color: #333333; }
+      border-width: 0;
+      color: #e6e6e6; }
   .table tfoot {
     background-color: transparent; }
     .table tfoot td,
@@ -2543,7 +2543,7 @@ a.box:active {
   .table.is-narrow th {
     padding: 0.25em 0.5em; }
   .table.is-striped tbody tr:not(.is-selected):nth-child(even) {
-    background-color: #fafafa; }
+    background-color: #404040; }
 
 .table-container {
   -webkit-overflow-scrolling: touch;
@@ -3572,3 +3572,6 @@ pre {
 #twitter:hover path:nth-child(2) {
   fill-opacity: 0.9;
   fill: #f5c518; }
+
+#official-packages td:not(:last-child) {
+  white-space: nowrap; }
