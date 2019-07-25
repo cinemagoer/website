@@ -25,6 +25,12 @@ When you're done, push your changes and Travis will automatically
 build and deploy the site. If you don't want to trigger a build
 include the text `[skip ci]` on a separate line in the commit message.
 
+To deploy manually, run the command:
+
+```
+lektor deploy
+```
+
 ## Content
 
 The site content is under the `content` directory. There is
