@@ -9,27 +9,28 @@ After cloning the repository, install the prerequisites:
 pip install -r requirements.txt
 ```
 
-Start the live development server:
+- Start the live development server:
 
-```
-lektor server
-```
+  ```
+  lektor server
+  ```
 
-Browse to the reported URL.
+- Browse to the reported URL.
 
-Edit the files and see the results in the browser.
+- Edit the files and see the results in the browser.
 Don't use the admin panel (the pencil button) if you're not
 familiar with lektor.
 
-When you're done, push your changes and Travis will automatically
-build and deploy the site. If you don't want to trigger a build
-include the text `[skip ci]` on a separate line in the commit message.
+- When you're done, push your changes and Travis will automatically
+build and deploy the site. If you don't want to trigger a deployment
+to the live site, include the text `[skip ci]` on a separate line
+in the commit message.
 
-To deploy manually, run the command:
+- To deploy manually, run the command:
 
-```
-lektor deploy
-```
+  ```
+  lektor deploy
+  ```
 
 ## Content
 
