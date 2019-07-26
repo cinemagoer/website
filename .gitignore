@@ -3,4 +3,5 @@ __pycache__
 *.pyc
 *.egg-info
 .sass-cache
-packages/*/.gitignore
+_build
+node_modules

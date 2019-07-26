@@ -1,7 +1,7 @@
 The site uses the [Lektor](https://www.getlektor.com/) static site
 generator.
 
-## Installation and Usage
+## Installation
 
 After cloning the repository, install the prerequisites:
 
@@ -9,10 +9,31 @@ After cloning the repository, install the prerequisites:
 pip install -r requirements.txt
 ```
 
+To install the JS components:
+
+```
+(cd theme && npm install)
+```
+
+To generate a first time build:
+
+```
+lektor build -O _build
+```
+
+To generate the CSS file:
+
+```
+sass --sourcemap=none theme/sass/imdbpy.scss:assets/static/imdbpy.css
+grunt --gruntfile=theme/Gruntfile.js
+```
+
+## Editing
+
 - Start the live development server:
 
   ```
-  lektor server
+  lektor server -O _build
   ```
 
 - Browse to the reported URL.
@@ -29,7 +50,7 @@ in the commit message.
 - To deploy manually, run the command:
 
   ```
-  lektor deploy
+  lektor deploy -O _build
   ```
 
 ## Content
@@ -52,11 +73,7 @@ The site uses a customized version
 of the [Bulma](https://bulma.io/) framework.
 The variables to set and the style overrides
 are in the `theme/sass` directory. If you change something,
-rebuild the CSS file:
-
-```
-sass --sourcemap=none theme/sass/imdbpy.scss:assets/static/imdbpy.css
-```
+rebuild the CSS file using sass and grunt as described above.
 
 ## Content Modeling
 
