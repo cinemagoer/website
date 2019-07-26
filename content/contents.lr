@@ -50,9 +50,7 @@ print(ia.get_movie_infoset())
   <p>Do you like this project? You can help by:</p>
   <ul>
     <li>
-      <a href="http://sourceforge.net/donate/index.php?group_id=105998" target="_blank">Making a donation.
-        <img src="/static/images/project-support.jpg" alt="Support the IMDbPY project">
-      </a>
+      <a href="http://sourceforge.net/donate/index.php?group_id=105998" target="_blank">Making a donation.</a>
     </li>
     <li>Spreading the word!</li>
     <li>
