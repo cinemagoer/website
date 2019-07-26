@@ -2429,7 +2429,7 @@ a.box:active {
   .table th {
     border: 1px solid #dbdbdb;
     border-width: 0;
-    padding: 0.5em 0.75em;
+    padding: 1.25em 1.25em;
     vertical-align: top; }
     .table td.is-white,
     .table th.is-white {
