@@ -39,11 +39,11 @@ one directory per page. The content of the page is placed
 into the `contents.lr` file in the corresponding directory.
 
 News items have to be placed into the `news` directory.
-Just copy an existing news item and edit the `contents.lr`
-file of the new item.
+Just copy an existing news item directory and
+edit the `contents.lr` file of the new item.
 
 The `ecosystem` page consists of `project` elements.
-To add a new project copy an existing project and
+To add a new project, copy an existing project and
 edit the `contents.lr` file.
 
 ## Style
