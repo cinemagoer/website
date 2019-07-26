@@ -28,12 +28,8 @@ $link: $primary;
 $link-hover: darken($link, 6%);
 $link-active: darken($link, 12%);
 
-$navbar-padding-vertical: 1.25rem;
+$navbar-padding-vertical: 1.5rem;
 $navbar-background-color: $black;
-$navbar-item-color: $grey;
-$navbar-item-hover-color: $primary;
-$navbar-item-hover-background-color: inherit;
-$navbar-item-active-color: $primary;
 
 $footer-background-color: $grey-darker;
 $footer-padding: 2rem;

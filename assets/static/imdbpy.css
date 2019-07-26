@@ -3189,7 +3189,7 @@ body.has-navbar-fixed-bottom {
   overflow-y: hidden; }
 
 .navbar-burger {
-  color: #999999;
+  color: #404040;
   cursor: pointer;
   display: block;
   height: 3.25rem;
@@ -3227,7 +3227,7 @@ body.has-navbar-fixed-bottom {
 
 .navbar-item,
 .navbar-link {
-  color: #999999;
+  color: #404040;
   display: block;
   line-height: 1.5;
   padding: 0.5rem 0.75rem;
@@ -3245,7 +3245,7 @@ a.navbar-item,
   .navbar-link:focus-within,
   .navbar-link:hover,
   .navbar-link.is-active {
-    background-color: inherit;
+    background-color: #fafafa;
     color: #f5c518; }
 
 .navbar-item {
@@ -3352,7 +3352,7 @@ a.navbar-item,
   .navbar {
     min-height: 3.25rem; }
     .navbar.is-spaced {
-      padding: 1.25rem 2rem; }
+      padding: 1.5rem 2rem; }
       .navbar.is-spaced .navbar-start,
       .navbar.is-spaced .navbar-end {
         align-items: center; }
@@ -3482,20 +3482,20 @@ a.navbar-item,
     padding-bottom: 3.25rem; }
   html.has-spaced-navbar-fixed-top,
   body.has-spaced-navbar-fixed-top {
-    padding-top: 5.75rem; }
+    padding-top: 6.25rem; }
   html.has-spaced-navbar-fixed-bottom,
   body.has-spaced-navbar-fixed-bottom {
-    padding-bottom: 5.75rem; }
+    padding-bottom: 6.25rem; }
 
   a.navbar-item.is-active,
   .navbar-link.is-active {
-    color: #f5c518; }
+    color: #262626; }
   a.navbar-item.is-active:not(:focus):not(:hover),
   .navbar-link.is-active:not(:focus):not(:hover) {
     background-color: transparent; }
 
   .navbar-item.has-dropdown:focus .navbar-link, .navbar-item.has-dropdown:hover .navbar-link, .navbar-item.has-dropdown.is-active .navbar-link {
-    background-color: inherit; } }
+    background-color: #fafafa; } }
 .hero.is-fullheight-with-navbar {
   min-height: calc(100vh - 3.25rem); }
 
@@ -3520,12 +3520,25 @@ pre {
 .navbar {
   border-bottom: 1px solid #404040; }
 
-.navbar-item {
-  margin-right: 1rem;
-  text-transform: uppercase; }
+.navbar .level-left {
+  align-items: baseline; }
 
-.navbar-item.is-active:before,
-.navbar-item:hover:before {
+.navbar .level-item {
+  position: relative; }
+
+.navbar .level-item a {
+  color: #999999;
+  text-transform: uppercase;
+  padding: 0.5rem 0.75rem; }
+
+.navbar .level-item.is-active a,
+.navbar .level-item a:active,
+.navbar .level-item a:hover {
+  color: #f5c518; }
+
+.navbar .level-item.is-active:before,
+.navbar .level-item:active:before,
+.navbar .level-item:hover:before {
   content: "";
   position: absolute;
   bottom: 0;
@@ -3535,7 +3548,7 @@ pre {
 
 :not(header) > .title {
   position: relative;
-  padding-bottom: 10px; }
+  padding-bottom: 0.5rem; }
 
 :not(header) > .title:before {
   content: "";
