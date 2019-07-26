@@ -114,3 +114,12 @@ pre {
 #official-packages td:not(:last-child) {
   white-space: nowrap;
 }
+
+#official-packages td:first-child {
+  display: flex;
+  align-items: center;
+}
+
+#official-packages td:first-child img {
+  margin-right: 0.5rem;
+}
