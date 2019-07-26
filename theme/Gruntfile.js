@@ -3,14 +3,14 @@ module.exports = function (grunt) {
         uncss: {
             dist: {
                 files: [
-                    { src: '../_build/**/*.html', dest: '../assets/static/tidy.css' }
+                    { src: '../_build/**/*.html', dest: '../assets/static/_imdbpy.css' }
                 ]
             }
         },
         cssmin: {
             dist: {
                 files: [
-                    { src: '../assets/static/tidy.css', dest: '../assets/static/imdbpy.css' }
+                    { src: '../assets/static/_imdbpy.css', dest: '../assets/static/imdbpy.css' }
                 ]
             }
         }
