@@ -41,6 +41,13 @@ print(sorted(the_matrix.keys()))
 
 # show all information sets that can be fetched for a movie
 print(ia.get_movie_infoset())
+
+# update a Movie object with more information
+ia.update(the_matrix, ['technical'])
+# show which keys were added by the information set
+print(the_matrix.infoset2keys['technical'])
+# print one of the new keys
+print(the_matrix.get('tech'))
 </code>
   </pre>
 </section>
