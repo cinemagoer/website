@@ -6,6 +6,7 @@
 {% from "macros/project.html" import render_project %}
 
 {% set projects = site.query('/ecosystem').filter(F.kind == 'program').order_by('sort_key') %}
+{% if projects %}
 <section class="section">
   <h2 class="title">Programs</h2>
 
@@ -13,8 +14,10 @@
     {{ render_project(project) }}
   {% endfor %}
 </section>
+{% endif %}
 
 {% set projects = site.query('/ecosystem').filter(F.kind == 'service').order_by('sort_key') %}
+{% if projects %}
 <section class="section">
   <h2 class="title">Services</h2>
 
@@ -22,8 +25,10 @@
     {{ render_project(project) }}
   {% endfor %}
 </section>
+{% endif %}
 
 {% set projects = site.query('/ecosystem').filter(F.kind == 'paper').order_by('sort_key') %}
+{% if projects %}
 <section class="section">
   <h2 class="title">Papers</h2>
 
@@ -31,4 +36,5 @@
     {{ render_project(project) }}
   {% endfor %}
 </section>
+{% endif %}
 {% endblock %}
