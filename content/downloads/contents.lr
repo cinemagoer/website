@@ -51,16 +51,6 @@ body:
         <td></td>
       </tr>
       <tr>
-        <td><img src="/static/images/fedora.png" alt="Fedora logo" width="32" height="32"> Fedora</td>
-        <td><a href="https://apps.fedoraproject.org/packages/python-imdb">python-imdbpy</a></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><img src="/static/images/gentoo.png" alt="Gentoo logo" width="32" height="32"> Gentoo</td>
-        <td><a href="https://packages.gentoo.org/package/dev-python/imdbpy">dev-python/imdbpy</a></td>
-        <td></td>
-      </tr>
-      <tr>
         <td><img src="/static/images/freebsd.png" alt="FreeBSD logo" width="32" height="32"> FreeBSD</td>
         <td>
           <a href="http://www.freebsd.org/cgi/ports.cgi?query=imdbpy&amp;stype=all">py-imdbpy</a>
@@ -72,16 +62,6 @@ body:
         <td><img src="/static/images/archlinux.png" alt="Arch Linux logo" width="32" height="32"> Arch Linux</td>
         <td><a href="https://www.archlinux.org/packages/community/any/python-imdbpy/">python-imdbpy</a></td>
         <td><a href="https://www.archlinux.org/packages/?maintainer=dvzrv">David Runge</a></td>
-      </tr>
-      <tr>
-        <td><img src="/static/images/openbsd.png" alt="OpenBSD logo" width="32" height="32"> OpenBSD</td>
-        <td><a href="http://openports.se/misc/py-imdb">py-imdbpy</a></td>
-        <td><a href="http://www.gratisoft.us/todd/">Todd C. Miller</a></td>
-      </tr>
-      <tr>
-        <td><img src="/static/images/openembedded.png" alt="OpenEmbedded logo" width="32" height="32"> OpenEmbedded</td>
-        <td><a href="http://www.openembedded.org/">included in base</a></td>
-        <td><a href="http://www.vanille-media.de/">Michael 'Mickey' Lauer</a></td>
       </tr>
       </tbody>
     </table>
