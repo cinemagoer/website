@@ -25,9 +25,9 @@ body:
   <h2 class="title">Official Packages</h2>
 
   <div class="content">
-    <p>These packages are created and maintained by the distributions' communities. They may be outdated, especially right after a new release (if so, check again in a few days or weeks).</p>
-    <p>We want to thank everyone who have ported IMDbPY to other distributions or operating systems!</p>
-    <p>If you know of other ports or packages, please write to the <a href="development.html#devel-mailing-list">development mailing list</a>.</p>
+    <p>These packages are created and maintained by the distributions' communities. They may be outdated, especially right after a new release (if so, check again in a few weeks).</p>
+    <p>We want to thank everyone who have ported IMDbPY to other distributions or operating systems!
+    If you know of other ports or packages, please write to the <a href="development.html#devel-mailing-list">development mailing list</a>.</p>
   </div>
 
   <div class="table-container">
