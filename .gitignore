@@ -6,3 +6,4 @@ __pycache__
 _build
 node_modules
 _imdbpy.css
+npm-debug.log
