@@ -3,6 +3,3 @@ name = IMDbPY
 
 [servers.ghpages]
 target = ghpages+https://imdbpy/imdbpy.github.io
-
-[packages]
-lektor-gulp = 0.3.2
