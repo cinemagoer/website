@@ -42,7 +42,7 @@ class GulpPlugin(Plugin):
             reporter.report_generic('Stopping gulp watcher')
             self.gulp_process.kill()
 
-    def on_before_build_all(self, builder, **extra):
+    def on_after_build_all(self, builder, **extra):
         extra_flags = getattr(
             builder, "extra_flags", getattr(builder, "build_flags", None)
         )
