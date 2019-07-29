@@ -22,4 +22,8 @@ gulp.task('cssmin', function () {
 });
 
 gulp.task('build', gulp.series('css', 'cssmin'));
+gulp.task('watch', function () {
+    return gulp.watch('./theme/sass/**/*.scss', gulp.series('css', 'cssmin'));
+});
+
 gulp.task('default', gulp.series('build'));
