@@ -5,5 +5,4 @@ __pycache__
 .sass-cache
 _build
 node_modules
-_imdbpy.css
 npm-debug.log
