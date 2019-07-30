@@ -5,3 +5,4 @@ script: "lektor build -f gulp -O _build"
 deploy:
   provider: script
   script: "lektor deploy ghpages -O _build"
+  skip_cleanup: true
