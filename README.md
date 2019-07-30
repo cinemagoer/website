@@ -2,10 +2,10 @@ The site uses the [Lektor](https://www.getlektor.com/) static site generator.
 
 ## Installation
 
-After cloning the repository, install the prerequisites:
+Install lektor:
 
 ```
-pip install -r requirements.txt
+pip install lektor
 ```
 
 - Start the live development server:
