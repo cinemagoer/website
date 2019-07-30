@@ -22,6 +22,7 @@ pip install lektor
 
 - When you're done, push your changes and Travis will automatically
   build and deploy the site.
+  (**See [issue #6](https://github.com/imdbpy/website/issues/6)**)
 
   If you don't want to trigger a deployment to the live site,
   include the text `[skip ci]` on a separate line in the commit message.
@@ -30,7 +31,7 @@ pip install lektor
 
   ```
   lektor build -f gulp -O _build
-  lektor deploy -O _build
+  lektor deploy ghpages -O _build
   ```
 
 ## Content
