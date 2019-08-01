@@ -39,7 +39,6 @@ class GulpPlugin(Plugin):
         if self.gulp_process is not None:
             reporter.report_generic('Stopping gulp watcher')
             self.gulp_process.kill()
-            self.run_gulp("after_build").wait()
 
     def on_before_build_all(self, builder, **extra):
         extra_flags = getattr(
