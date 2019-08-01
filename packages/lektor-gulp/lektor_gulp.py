@@ -22,13 +22,9 @@ class GulpPlugin(Plugin):
         gulp_root = os.path.join(self.env.root_path, '.')
         portable_popen(['npm', 'install'], cwd=gulp_root).wait()
 
-    def run_gulp(self, watch=False, after=False):
+    def run_gulp(self, task):
         gulp_root = os.path.join(self.env.root_path, '.')
-        args = [os.path.join(gulp_root, 'node_modules', '.bin', 'gulp')]
-        if watch:
-            args.append('watch')
-        if after:
-            args.append('after_build')
+        args = [os.path.join(gulp_root, 'node_modules', '.bin', 'gulp'), task]
         return portable_popen(args, cwd=gulp_root)
 
     def on_server_spawn(self, **extra):
@@ -37,12 +33,13 @@ class GulpPlugin(Plugin):
             return
         self.npm_install()
         reporter.report_generic('Spawning gulp watcher')
-        self.gulp_process = self.run_gulp(watch=True)
+        self.gulp_process = self.run_gulp("watch")
 
     def on_server_stop(self, **extra):
         if self.gulp_process is not None:
             reporter.report_generic('Stopping gulp watcher')
             self.gulp_process.kill()
+            self.run_gulp("after_build").wait()
 
     def on_before_build_all(self, builder, **extra):
         extra_flags = getattr(
@@ -52,7 +49,7 @@ class GulpPlugin(Plugin):
             return
         self.npm_install()
         reporter.report_generic('Starting gulp build')
-        self.run_gulp().wait()
+        self.run_gulp("build").wait()
         reporter.report_generic('Gulp build finished')
 
     def on_after_build_all(self, builder, **extra):
@@ -62,7 +59,7 @@ class GulpPlugin(Plugin):
         if not self.is_enabled(extra_flags) or self.gulp_process is not None:
             return
         reporter.report_generic('Starting gulp build')
-        self.run_gulp(after=True).wait()
+        self.run_gulp("after_build").wait()
         reporter.report_generic('Gulp build finished')
 
     def on_process_template_context(self, context, **extra):
