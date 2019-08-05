@@ -11,7 +11,7 @@ pip install -r requirements.txt
 - Start the live development server:
 
   ```
-  lektor server -f gulp -O _build
+  lektor server -f cssbuild
   ```
 
 - Browse to the reported URL.
@@ -29,8 +29,8 @@ pip install -r requirements.txt
 - To build or deploy manually, run the commands:
 
   ```
-  lektor build -f gulp -O _build
-  lektor deploy ghpages -O _build
+  lektor build -f cssbuild
+  lektor deploy ghpages
   ```
 
 ## Content

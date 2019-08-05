@@ -3,3 +3,6 @@ name = IMDbPY
 
 [servers.ghpages]
 target = ghpages+https://imdbpy/imdbpy.github.io
+
+[packages]
+lektor-cssbuild = 0.1
