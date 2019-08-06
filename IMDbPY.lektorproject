@@ -5,4 +5,4 @@ name = IMDbPY
 target = ghpages+https://imdbpy/imdbpy.github.io
 
 [packages]
-lektor-cssbuild = 0.1
+lektor-cssbuild = 0.2
