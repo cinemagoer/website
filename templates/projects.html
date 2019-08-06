@@ -3,37 +3,35 @@
 {% block body %}
 {{ this.body }}
 
-{% from "macros/project.html" import render_project %}
-
-{% set projects = site.query('/ecosystem').filter(F.kind == 'program').order_by('sort_key') %}
+{% set projects = this.programs.blocks %}
 {% if projects %}
 <section class="section">
   <h2 class="title">Programs</h2>
 
   {% for project in projects %}
-    {{ render_project(project) }}
+    {{ project }}
   {% endfor %}
 </section>
 {% endif %}
 
-{% set projects = site.query('/ecosystem').filter(F.kind == 'service').order_by('sort_key') %}
+{% set projects = this.services.blocks %}
 {% if projects %}
 <section class="section">
   <h2 class="title">Services</h2>
 
   {% for project in projects %}
-    {{ render_project(project) }}
+    {{ project }}
   {% endfor %}
 </section>
 {% endif %}
 
-{% set projects = site.query('/ecosystem').filter(F.kind == 'paper').order_by('sort_key') %}
+{% set projects = this.papers.blocks %}
 {% if projects %}
 <section class="section">
   <h2 class="title">Papers</h2>
 
   {% for project in projects %}
-    {{ render_project(project) }}
+    {{ project }}
   {% endfor %}
 </section>
 {% endif %}

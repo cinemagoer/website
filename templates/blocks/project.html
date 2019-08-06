@@ -1,0 +1,12 @@
+<div class="box has-background-grey-dark">
+  <article>
+    <header>
+      <h2 class="title is-size-4">{{ this.title }}</h2>
+      <p>{{ this.author }}</p>
+    </header>
+    <div class="content">
+      {% if this.url %}<p><a href="{{ this.url }}">Website</a></p>{% endif %}
+      {{ this.description }}
+    </div>
+  </article>
+</div>

@@ -10,3 +10,65 @@ body:
     <p>If you want to add your project, service or paper to this list, <a href="mailto:imdbpy-help@lists.sourceforge.net">send an e-mail</a> containing the project's name, URL, author, and a short description.</p>
   </div>
 </div>
+---
+programs:
+---
+services:
+---
+papers:
+
+#### project ####
+title: Quantitative analysis of the evolution of novelty in cinema through crowdsourced keywords
+----
+author: Sameet Sreenivasan
+----
+url: https://www.nature.com/srep/2013/130926/srep02758/full/srep02758.html
+----
+description:
+
+A great paper on the dynamics of novelty in cinema.
+
+#### project ####
+title: Qunits: Queried Units for Database Search
+----
+author: Arnab Nandi, H. V. Jagadish
+----
+url: https://arnab.org/papers/qunits
+----
+description:
+
+Free-form queries on keywords in a database.
+
+#### project ####
+title: Automatic Generation of Movie Trailers using Ontologies
+----
+author: The SVP Group
+----
+url: https://www.researchgate.net/publication/257416491_Automatic_Generation_of_Movie_Trailers_using_Ontologies
+----
+description:
+
+A paper about automatic generation of teasers using ontologies. It's so cool it hurts!
+
+#### project ####
+title: Likability-Based Genres: Analysis and Evaluation of the Netflix Dataset
+----
+author: Andrew M. Olney
+----
+url: https://umdrive.memphis.edu/aolney/public/publications/olney_cogsci_2010.pdf
+----
+description:
+
+The paper describes a new approach to defining genre. Very very cool!
+
+#### project ####
+title: A Framework for Evaluating Database Keyword Search Strategies
+----
+author: Joel Coffman and Alfred C. Weaver
+----
+url: https://dl.acm.org/citation.cfm?id=1871531
+----
+description:
+
+An analysis of keyword search strategies for structured data. Schema and data can be downloaded from [this page](https://www.cs.virginia.edu/~jmc7tp/resources.php).
+
