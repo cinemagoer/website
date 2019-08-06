@@ -1,8 +1,8 @@
 language: python
 python: 3.6
 install: "pip install Lektor"
-script: "lektor build -f gulp -O _build"
+script: "lektor build -f cssbuild"
 deploy:
   provider: script
-  script: "lektor deploy ghpages -O _build"
+  script: "lektor deploy ghpages"
   skip_cleanup: true
