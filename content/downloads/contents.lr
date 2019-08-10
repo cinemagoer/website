@@ -51,6 +51,11 @@ body:
         <td></td>
       </tr>
       <tr>
+        <td><img src="/static/images/opensuse.png" alt="OpenSUSE logo" width="32" height="20"> OpenSUSE</td>
+        <td><a href="https://software.opensuse.org/search?baseproject=ALL&q=imdbpy">python3-IMDbPY</a></td>
+        <td><a href="https://ekaia.org/">Ana Guerrero López</a></td>
+      </tr>
+      <tr>
         <td><img src="/static/images/freebsd.png" alt="FreeBSD logo" width="32" height="32"> FreeBSD</td>
         <td>
           <a href="http://www.freebsd.org/cgi/ports.cgi?query=imdbpy&amp;stype=all">py-imdbpy</a>
