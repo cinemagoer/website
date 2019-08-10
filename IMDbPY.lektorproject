@@ -6,4 +6,4 @@ included_assets = .nojekyll
 target = ghpages+https://imdbpy/imdbpy.github.io
 
 [packages]
-lektor-cssbuild = 0.3
+lektor-cssbuild = 0.3.1
