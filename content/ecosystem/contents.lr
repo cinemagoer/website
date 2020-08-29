@@ -72,3 +72,14 @@ description:
 
 An analysis of keyword search strategies for structured data. Schema and data can be downloaded from [this page](https://www.cs.virginia.edu/~jmc7tp/resources.php).
 
+#### project ####
+title: A movie connection quiz in Python
+----
+author: Nikolaos Diamantis
+----
+url: https://nikos7am.com/posts/movie_connections_quiz/
+----
+description:
+
+Using Python to create movie quizzes.
+
