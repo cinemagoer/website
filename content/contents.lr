@@ -10,13 +10,13 @@ body:
   <div class="content">
     <p class="buttons is-uppercase has-text-weight-bold">
       <a href="./downloads" class="button is-primary has-text-grey-dark">Downloads</a>
-      <a href="https://imdbpy.readthedocs.io/" class="button is-outlined has-text-primary">Read the Docs</a>
+      <a href="https://cinemagoer.readthedocs.io/" class="button is-outlined has-text-primary">Read the Docs</a>
     </p>
 
     <ul>
       <li>Platform-independent: written in pure Python 3, with a simple API.</li>
       <li>Can retrieve data from both the IMDb's web server and a local copy of the whole database.</li>
-      <li>Released under the terms of the <a href="https://raw.githubusercontent.com/alberanid/imdbpy/master/LICENSE.txt">GPL 2 license or later.</a></li>
+      <li>Released under the terms of the <a href="https://raw.githubusercontent.com/cinemagoer/cinemagoer/master/LICENSE.txt">GPL 2 license or later.</a></li>
       <li>Cinemagoer is used by many other projects. <a href="./ecosystem">Curious about that?</a></li>
     </ul>
   </div>

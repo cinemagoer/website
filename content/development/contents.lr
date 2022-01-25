@@ -8,7 +8,7 @@ body:
   <section>
     <h3 class="subtitle">Repository</h3>
     <p class="buttons is-uppercase has-text-weight-bold">
-      <a href="https://github.com/alberanid/imdbpy" class="button is-outlined has-text-primary">GitHub Repo</a>
+      <a href="https://github.com/cinemagoer/cinemagoer" class="button is-outlined has-text-primary">GitHub Repo</a>
     </p>
 
     <div class="content">
@@ -19,7 +19,7 @@ body:
   <section>
     <h3 class="subtitle">Bugs</h3>
     <p class="buttons is-uppercase has-text-weight-bold">
-      <a href="https://github.com/alberanid/imdbpy/issues" class="button is-outlined has-text-primary">Issue Tracker</a>
+      <a href="https://github.com/cinemagoer/cinemagoer/issues" class="button is-outlined has-text-primary">Issue Tracker</a>
     </p>
 
     <div class="content">
@@ -36,7 +36,7 @@ body:
   <section>
     <h3 class="subtitle">Patches</h3>
     <p class="buttons is-uppercase has-text-weight-bold">
-      <a href="https://github.com/alberanid/imdbpy/pulls" class="button is-outlined has-text-primary">Pull Requests</a>
+      <a href="https://github.com/cinemagoer/cinemagoer/pulls" class="button is-outlined has-text-primary">Pull Requests</a>
     </p>
 
     <div class="content">

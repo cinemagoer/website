@@ -7,8 +7,8 @@ body:
 
   <div class="content">
     <ul>
-      <li>Read the IMDbPY <a href="https://raw.githubusercontent.com/alberanid/imdbpy/master/DISCLAIMER.txt">disclaimer</a>.</li>
-      <li>Licensed under the terms of the <a href="https://raw.githubusercontent.com/alberanid/imdbpy/master/LICENSE.txt">GPL v2 or later License</a>.</li>
+      <li>Read the Cinemagoer <a href="https://raw.githubusercontent.com/cinemagoer/cinemagoer/master/DISCLAIMER.txt">disclaimer</a>.</li>
+      <li>Licensed under the terms of the <a href="https://raw.githubusercontent.com/cinemagoer/cinemagoer/master/LICENSE.txt">GPL v2 or later License</a>.</li>
     </ul>
   </div>
 </section>
@@ -16,8 +16,8 @@ body:
 <section class="section">
   <h2 class="title">Source Code</h2>
   <p class="buttons is-uppercase has-text-weight-bold">
-    <a href="https://github.com/alberanid/imdbpy/archive/master.zip" class="button is-primary has-text-grey-dark">Download</a>
-    <a href="https://github.com/alberanid/imdbpy" class="button is-outlined has-text-primary">Go to Repository</a>
+    <a href="https://github.com/cinemagoer/cinemagoer/archive/master.zip" class="button is-primary has-text-grey-dark">Download</a>
+    <a href="https://github.com/cinemagoer/cinemagoer" class="button is-outlined has-text-primary">Go to Repository</a>
   </p>
 </section>
 
@@ -26,7 +26,7 @@ body:
 
   <div class="content">
     <p>These packages are created and maintained by the distributions' communities. They may be outdated, especially right after a new release (if so, check again in a few weeks).</p>
-    <p>We want to thank everyone who have ported IMDbPY to other distributions or operating systems!
+    <p>We want to thank everyone who have ported Cinemagoer to other distributions or operating systems!
     If you know of other ports or packages, please write to the <a href="development.html#devel-mailing-list">development mailing list</a>.</p>
   </div>
 
@@ -52,7 +52,7 @@ body:
       </tr>
       <tr>
         <td><img src="/static/images/opensuse.png" alt="OpenSUSE logo" width="32" height="20"> OpenSUSE</td>
-        <td><a href="https://software.opensuse.org/search?baseproject=ALL&q=imdbpy">python3-IMDbPY</a></td>
+        <td><a href="https://software.opensuse.org/search?baseproject=ALL&q=imdbpy">python3-Cinemagoer</a></td>
         <td><a href="https://ekaia.org/">Ana Guerrero López</a></td>
       </tr>
       <tr>
