@@ -1,9 +1,9 @@
 [project]
-name = IMDbPY
+name = Cinemagoer
 included_assets = .nojekyll
 
 [servers.ghpages]
-target = ghpages+https://imdbpy/imdbpy.github.io
+target = ghpages://cinemagoer/cinemagoer.github.io
 
 [packages]
 lektor-cssbuild = 0.3.1

@@ -4,7 +4,7 @@ body:
 
 <section class="section">
   <h1 id="intro">
-    IMDbPY is a Python package for retrieving and managing the data of the IMDb movie database about movies and people.
+    Cinemagoer (formerly known as IMDbPY) is a Python package for retrieving and managing the data of the IMDb movie database about movies and people.
   </h1>
 
   <div class="content">
@@ -17,7 +17,7 @@ body:
       <li>Platform-independent: written in pure Python 3, with a simple API.</li>
       <li>Can retrieve data from both the IMDb's web server and a local copy of the whole database.</li>
       <li>Released under the terms of the <a href="https://raw.githubusercontent.com/alberanid/imdbpy/master/LICENSE.txt">GPL 2 license or later.</a></li>
-      <li>IMDbPY is used by many other projects. <a href="./ecosystem">Curious about that?</a></li>
+      <li>Cinemagoer is used by many other projects. <a href="./ecosystem">Curious about that?</a></li>
     </ul>
   </div>
 </section>

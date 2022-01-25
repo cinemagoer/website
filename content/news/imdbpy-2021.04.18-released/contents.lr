@@ -2,12 +2,12 @@ _model: newsitem
 ---
 status: published
 ---
-date: 2021-04-18
+date: 2022-01-25
 ---
-title: IMDbPY 2021-04-18 released
+title: IMDbPY renamed to Cinemagoer
 ---
 body:
 
-In the release 2021-04-18 (codename "Black Sails") of IMDbPY, multiple parsers were added and fixed. As always, IMDbPY is looking for developers; if you want to contribute, [contact us](https://lists.sourceforge.net/lists/listinfo/imdbpy-devel).
+New year, new name: after almost 18 years, we decided to change the name of the project: welcome Cinemagoer!
 
-For more details see the [latest changelog](https://imdbpy.readthedocs.io/en/latest/Changelog.html), including unreleased changes.
+For more details see the [latest changelog](https://cinemagoer.readthedocs.io/en/latest/Changelog.html), including unreleased changes.

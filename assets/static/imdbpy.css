@@ -71,7 +71,7 @@
   vertical-align: top; }
   .button:focus, .is-focused.button, .button:active, .is-active.button {
     outline: none; }
-  .button[disabled], fieldset[disabled] .button {
+  [disabled].button, fieldset[disabled] .button {
     cursor: not-allowed; }
 
 /*! minireset.css v0.0.4 | MIT License | github.com/jgthms/minireset.css */
@@ -2428,13 +2428,13 @@ a.box:active {
   margin-top: 1em; }
   .content ol:not([type]) {
     list-style-type: decimal; }
-    .content ol.is-lower-alpha:not([type]) {
+    .content ol:not([type]).is-lower-alpha {
       list-style-type: lower-alpha; }
-    .content ol.is-lower-roman:not([type]) {
+    .content ol:not([type]).is-lower-roman {
       list-style-type: lower-roman; }
-    .content ol.is-upper-alpha:not([type]) {
+    .content ol:not([type]).is-upper-alpha {
       list-style-type: upper-alpha; }
-    .content ol.is-upper-roman:not([type]) {
+    .content ol:not([type]).is-upper-roman {
       list-style-type: upper-roman; }
 
 .content ul {

@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>IMDbPY{% if this.title %} — {{ this.title }}{% endif %}</title>
+  <title>Cinemagoer{% if this.title %} — {{ this.title }}{% endif %}</title>
 
   <link rel="icon" type="image/x-icon" href="{{ '/static/images/imdbpyico16x16.ico'|url }}">
   <link rel="stylesheet" href="{{ '/static/imdbpy.css'|asseturl }}">
@@ -17,7 +17,7 @@
       <div class="level container">
         <div class="level-left">
           <div class="level-item{% if this._path == '/' %} is-active{% endif %}">
-            <a id="logo" href="{{ '/'|url }}">IMDbPY</a>
+            <a id="logo" href="{{ '/'|url }}">Cinemagoer</a>
           </div>
           {% for path, label in bag('main-nav').items() %}
           <div class="level-item{% if this.is_child_of(path) %} is-active{% endif %}">
