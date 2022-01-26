@@ -1,9 +1,0 @@
-{% macro render_newsitem(newsitem) %}
-  <article>
-    <header>
-      <h3>{{ newsitem.title }}</h3>
-      <time datetime="{{ newsitem.date }}">{{ newsitem.date | dateformat('MMM d, YYYY') }}</time>
-    </header>
-    {{ newsitem.body }}
-  </article>
-{% endmacro %}

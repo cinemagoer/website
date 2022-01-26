@@ -223,6 +223,11 @@ p.more {
   text-align: right;
 }
 
+div.pagination {
+  margin-top: var(--space-l);
+  font-size: 80%;
+}
+
 code,
 pre {
   font-family: var(--font-family-mono);
@@ -235,7 +240,7 @@ pre {
   border-radius: var(--space-s);
 }
 
-.microlight {
+code.microlight {
   color: #8FC0CC;
 }
 

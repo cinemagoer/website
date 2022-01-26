@@ -1,14 +1,18 @@
 {% extends "layout.html" %}
 
+{% from "macros/pagination.html" import render_pagination %}
+
 {% block body %}
 {{ this.body }}
 
-{% set newsitems = site.query('/news').filter(F._model == 'newsitem').order_by('-date') %}
-{% from "macros/newsitem.html" import render_newsitem %}
+{% set news_items = site.query('/news').filter(F._model == 'news-item').order_by('-date') %}
+{% from "macros/news_item.html" import render_news_item %}
 <section>
   <h2>News</h2>
-  {% for newsitem in newsitems %}
-    {{ render_newsitem(newsitem) }}
+  {% for news_item in news_items %}
+    {{ render_news_item(news_item) }}
   {% endfor %}
 </section>
+
+{{ render_pagination(this.pagination) }}
 {% endblock %}

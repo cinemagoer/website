@@ -1,4 +1,4 @@
-_model: landing
+_template: landing.html
 ---
 title: Welcome!
 ---

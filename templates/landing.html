@@ -3,17 +3,17 @@
 {% block body %}
 {{ this.body }}
 
-{% set newsitems = site.query('/news').filter((F._model == 'newsitem').and(F.status != 'expired')).order_by('-date').limit(3) %}
-{% if newsitems.count() > 0 %}
-{%   from "macros/newsitem.html" import render_newsitem %}
+{% set news_items = site.query('/news').filter((F._model == 'news-item').and(F.status != 'expired')).order_by('-date').limit(3) %}
+{% if news_items.count() > 0 %}
+{%   from "macros/news_item.html" import render_news_item %}
 <section>
   <h2>News</h2>
-  {% for newsitem in newsitems %}
-    {{ render_newsitem(newsitem) }}
+  {% for news_item in news_items %}
+    {{ render_news_item(news_item) }}
   {% endfor %}
   <p class="more"><a href="/news/">All news...</a></p>
 </section>
 {% endif %}
 
-<script src="https://unpkg.com/microlight@0.0.7/microlight.js"></script>
+<script src="{{ '/static/microlight.js' | url }}"></script>
 {% endblock %}
