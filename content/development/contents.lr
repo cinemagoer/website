@@ -2,74 +2,54 @@ title: Development
 ---
 body:
 
-<section class="section">
-  <h2 class="title">Source Code</h2>
+<section>
+  <h2>Source Code</h2>
 
-  <section>
-    <h3 class="subtitle">Repository</h3>
-    <p class="buttons is-uppercase has-text-weight-bold">
-      <a href="https://github.com/cinemagoer/cinemagoer" class="button is-outlined has-text-primary">GitHub Repo</a>
-    </p>
-
-    <div class="content">
-      <a href="https://bitbucket.org/alberanid/imdbpy">Bitbucket mirror</a>
-    </div>
-  </section>
-
-  <section>
-    <h3 class="subtitle">Bugs</h3>
-    <p class="buttons is-uppercase has-text-weight-bold">
-      <a href="https://github.com/cinemagoer/cinemagoer/issues" class="button is-outlined has-text-primary">Issue Tracker</a>
-    </p>
-
-    <div class="content">
-      <p>Before filing any new issue, please check if it has been already reported.</p>
-      <p>Please report every information needed to reproduce the error. Remember to include:</p>
-      <ul>
-        <li>error messages</li>
-        <li>stack tracebacks</li>
-        <li>URL (or name, or title) of the movie/person page that generates the error (if available)</li>
-      </ul>
-    </div>
-  </section>
-
-  <section>
-    <h3 class="subtitle">Patches</h3>
-    <p class="buttons is-uppercase has-text-weight-bold">
-      <a href="https://github.com/cinemagoer/cinemagoer/pulls" class="button is-outlined has-text-primary">Pull Requests</a>
-    </p>
-
-    <div class="content">
-      <p>Patches can also be submitted to the development mailing list (see below).</p>
-    </div>
-  </section>
-</section>
-
-<section class="section">
-  <h2 class="title">Translation</h2>
-
-  <p class="buttons is-uppercase has-text-weight-bold">
-    <a href="https://www.transifex.com/davide_alberani/imdbpy/" class="button is-outlined has-text-primary">Transifex</a>
-  </p>
-</section>
-
-<section class="section">
-  <h2 class="title">Development Mailing List</h2>
-
-  <p class="buttons is-uppercase has-text-weight-bold">
-    <a href="http://lists.sourceforge.net/lists/listinfo/imdbpy-devel" class="button is-outlined has-text-primary">Subscribe</a>
-  </p>
-
-  <div class="content">
-    <p><a href="mailto:imdbpy-devel@lists.sourceforge.net">imdbpy-devel@lists.sourceforge.net</a></p>
-
-    <p>The mailing list is open also to non-subscribers (anyone can send emails) but is moderated by default: your first message needs to be approved; if it's on-topic, the succeeding ones will be automatically accepted.</p>
-
-    <p>Archives:</p>
-    <ul>
-      <li><a href="https://sourceforge.net/p/imdbpy/mailman/imdbpy-devel/">Sourceforge</a></li>
-      <li><a href="https://www.mail-archive.com/imdbpy-devel@lists.sourceforge.net/">mail-archive.com</a></li>
-      <li><a href="https://groups.google.com/forum/#!forum/imdbpy-devel">Google groups</a></li>
-    </ul>
+  <h3>Repository</h3>
+  <div class="buttons">
+    <a href="https://github.com/cinemagoer/cinemagoer" class="button secondary">GitHub Repo</a>
   </div>
+  <p><a href="https://bitbucket.org/alberanid/imdbpy">Bitbucket mirror</a></p>
+
+  <h3>Bugs</h3>
+  <div class="buttons">
+    <p><a href="https://github.com/cinemagoer/cinemagoer/issues" class="button secondary">Issue Tracker</a></p>
+  </div>
+
+  <p>Before filing any new issue, please check if it has been already reported.</p>
+  <p>Please report every information needed to reproduce the error. Remember to include:</p>
+  <ul>
+    <li>error messages</li>
+    <li>stack tracebacks</li>
+    <li>URL (or name, or title) of the movie/person page that generates the error (if available)</li>
+  </ul>
+
+  <h3>Patches</h3>
+  <div class="buttons">
+    <p><a href="https://github.com/cinemagoer/cinemagoer/pulls" class="button secondary">Pull Requests</a></p>
+  </div>
+  <p>Patches can also be submitted to the development mailing list (see below).</p>
+</section>
+
+<section>
+  <h2>Translation</h2>
+  <div class="buttons">
+    <p><a href="https://www.transifex.com/davide_alberani/imdbpy/" class="button secondary">Transifex</a></p>
+  </div>
+</section>
+
+<section>
+  <h2>Development Mailing List</h2>
+  <div class="buttons">
+   <p><a href="http://lists.sourceforge.net/lists/listinfo/imdbpy-devel" class="button secondary">Subscribe</a></p>
+  </div>
+  <p><a href="mailto:imdbpy-devel@lists.sourceforge.net">imdbpy-devel@lists.sourceforge.net</a></p>
+  <p>The mailing list is open also to non-subscribers (anyone can send emails) but is moderated by default:
+    your first message needs to be approved; if it's on-topic, the succeeding ones will be automatically accepted.</p>
+  <h3>Archives</h3>
+  <ul>
+    <li><a href="https://sourceforge.net/p/imdbpy/mailman/imdbpy-devel/">Sourceforge</a></li>
+    <li><a href="https://www.mail-archive.com/imdbpy-devel@lists.sourceforge.net/">mail-archive.com</a></li>
+    <li><a href="https://groups.google.com/forum/#!forum/imdbpy-devel">Google groups</a></li>
+  </ul>
 </section>

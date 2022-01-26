@@ -4,6 +4,3 @@ included_assets = .nojekyll
 
 [servers.ghpages]
 target = ghpages://cinemagoer/cinemagoer.github.io
-
-[packages]
-lektor-cssbuild = 0.3.1

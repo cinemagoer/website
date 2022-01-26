@@ -16,5 +16,8 @@ jobs:
       - name: Install requirements
         run: pip install -r requirements.txt
 
+      - name: Build site
+        run: lektor build
+
       - name: Deploy to GitHub Pages
         run: lektor deploy ghpages

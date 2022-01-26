@@ -1,3 +1,0 @@
-# run this if you are annoyed by lektor deployment warnings
-LEKTOR_PATH=$(python -c "import lektor; print(lektor.__path__[0])")
-curl -s https://gist.githubusercontent.com/uyar/41d32434b0b6aedfe44183a5e8473fbe/raw/5e265589bd64cd08e0f6f4813c9f9311f1c20a1d/lektor-deploy.patch | patch $LEKTOR_PATH/publisher.py

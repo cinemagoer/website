@@ -1,14 +1,9 @@
 {% macro render_newsitem(newsitem) %}
-  <div class="box has-background-grey-dark">
-    <article>
-      <header>
-        <h2 class="title is-size-4">{{ newsitem.title }}</h2>
-        <time datetime="{{ newsitem.date }}">{{ newsitem.date|dateformat('MMM d, YYYY')}}</time>
-      </header>
-      <h3 class="subtitle is-size-5">{{ newsitem.lead_in }}</h3>
-      <div class="content">
-        {{ newsitem.body }}
-      </div>
-    </article>
-  </div>
+  <article>
+    <header>
+      <h3>{{ newsitem.title }}</h3>
+      <time datetime="{{ newsitem.date }}">{{ newsitem.date | dateformat('MMM d, YYYY') }}</time>
+    </header>
+    {{ newsitem.body }}
+  </article>
 {% endmacro %}

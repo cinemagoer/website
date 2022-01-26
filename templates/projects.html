@@ -5,9 +5,8 @@
 
 {% set projects = this.programs.blocks %}
 {% if projects %}
-<section class="section">
-  <h2 class="title">Programs</h2>
-
+<section>
+  <h2>Programs</h2>
   {% for project in projects %}
     {{ project }}
   {% endfor %}
@@ -16,9 +15,8 @@
 
 {% set projects = this.services.blocks %}
 {% if projects %}
-<section class="section">
-  <h2 class="title">Services</h2>
-
+<section>
+  <h2>Services</h2>
   {% for project in projects %}
     {{ project }}
   {% endfor %}
@@ -27,9 +25,8 @@
 
 {% set projects = this.papers.blocks %}
 {% if projects %}
-<section class="section">
-  <h2 class="title">Papers</h2>
-
+<section>
+  <h2>Papers</h2>
   {% for project in projects %}
     {{ project }}
   {% endfor %}
