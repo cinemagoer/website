@@ -5,7 +5,7 @@ title: Welcome!
 body:
 
 <section>
-  <h1>Cinemagoer (formerly known as IMDbPY) is a Python package for retrieving and managing
+  <h1>Cinemagoer (previously known as IMDbPY) is a Python package for retrieving and managing
     the data of the IMDb movie database about movies and people.</h1>
   <div class="buttons">
     <a href="./downloads" class="button primary">Downloads</a>
