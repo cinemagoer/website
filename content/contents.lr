@@ -20,6 +20,15 @@ body:
   </ul>
 </section>
 
+<article>
+  <header>
+    <h3>Notice</h3>
+  </header>
+  <div>
+    <p>This project and its authors are not affiliated in any way to Internet Movie Database Inc.; see the <a href="https://raw.githubusercontent.com/cinemagoer/cinemagoer/master/DISCLAIMER.txt">disclaimer</a> file for details about data licenses.</p>
+  </div>
+</article>
+
 <section>
   <h3>Code example</h3>
   <pre>

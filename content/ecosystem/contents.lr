@@ -8,6 +8,15 @@ body:
 <p>If you want to add your project, service or paper to this list,
   <a href="mailto:imdbpy-help@lists.sourceforge.net">send an e-mail</a> containing the project's name, URL, author,
   and a short description.</p>
+
+<article>
+  <header>
+    <h3>Notice</h3>
+  </header>
+  <div>
+    <p>This project and its authors are not affiliated in any way to Internet Movie Database Inc.; see the <a href="https://raw.githubusercontent.com/cinemagoer/cinemagoer/master/DISCLAIMER.txt">disclaimer</a> file for details about data licenses.</p>
+  </div>
+</article>
 ---
 programs:
 
