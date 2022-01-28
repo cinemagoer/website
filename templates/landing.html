@@ -1,5 +1,17 @@
 {% extends "layout.html" %}
 
+{% block extra_head %}
+<link rel="stylesheet" href="{{ '/static/highlight_dark.min.css' | url }}">
+<script defer src="{{ '/static/highlight.min.js' | url }}"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', (event) => {
+      document.querySelectorAll('pre code').forEach((el) => {
+          hljs.highlightElement(el);
+      });
+  });
+</script>
+{% endblock %}
+
 {% block body %}
 {{ this.body }}
 
@@ -14,6 +26,4 @@
   <p class="more"><a href="/news/">All news...</a></p>
 </section>
 {% endif %}
-
-<script src="{{ '/static/microlight.js' | url }}"></script>
 {% endblock %}

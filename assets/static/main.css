@@ -235,15 +235,7 @@ pre {
 }
 
 pre {
-  padding: 0 var(--space-m);
   overflow: auto;
-  background: #0D161A;
-  border: 1px solid #30302F;
-  border-radius: var(--space-s);
-}
-
-code.microlight {
-  color: #8FC0CC;
 }
 
 #official-packages {

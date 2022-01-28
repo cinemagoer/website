@@ -32,8 +32,7 @@ body:
 <section>
   <h3>Code example</h3>
   <pre>
-<code class="microlight">
-from imdb import IMDb
+<code class="language-python">from imdb import IMDb
 
 # create an instance of the IMDb class
 ia = IMDb()
@@ -54,8 +53,7 @@ ia.update(the_matrix, ['technical'])
 # show which keys were added by the information set
 print(the_matrix.infoset2keys['technical'])
 # print one of the new keys
-print(the_matrix.get('tech'))
-</code>
+print(the_matrix.get('tech'))</code>
   </pre>
 </section>
 
