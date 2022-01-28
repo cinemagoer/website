@@ -28,7 +28,8 @@ body:
     If you know of other ports or packages,
     please write to the <a href="development.html#devel-mailing-list">development mailing list</a>.</p>
 
-  <table id="official-packages" class="striped">
+  <div id="official-packages">
+  <table class="striped">
     <thead>
     <tr>
       <th>Platform</th>
@@ -67,4 +68,5 @@ body:
     </tr>
     </tbody>
   </table>
+  </div>
 </section>

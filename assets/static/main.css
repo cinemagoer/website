@@ -55,6 +55,7 @@ main {
 
 main {
   flex-grow: 1;
+  max-width: calc(100vw - 2 * var(--space-m));
   margin: 0 auto;
 }
 
@@ -111,9 +112,10 @@ body > header {
 
 body > footer {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  background-color: var(--color-border);
+  background-color: hsl(var(--color-gray-hs), 18%);
 }
 
 article {
@@ -185,19 +187,18 @@ table.striped tr:nth-child(even) {
 }
 
 div.buttons {
+  display: flex;
+  flex-wrap: wrap;
   margin: var(--space-l) 0;
 }
 
 a.button {
+  margin: var(--space-s) var(--space-s);
   padding: var(--space-s) var(--space-m);
   font-weight: 700;
   text-transform: uppercase;
   border: 1px solid currentColor;
   border-radius: var(--space-xs);
-}
-
-a.button:not(:first-child) {
-  margin-left: var(--space-m);
 }
 
 a.button.primary {
@@ -219,13 +220,13 @@ a.button.secondary:hover {
 }
 
 p.more {
-  font-size: 80%;
+  font-size: 85%;
   text-align: right;
 }
 
 div.pagination {
   margin-top: var(--space-l);
-  font-size: 80%;
+  font-size: 85%;
 }
 
 code,
@@ -235,6 +236,7 @@ pre {
 
 pre {
   padding: 0 var(--space-m);
+  overflow: auto;
   background: #0D161A;
   border: 1px solid #30302F;
   border-radius: var(--space-s);
@@ -244,13 +246,22 @@ code.microlight {
   color: #8FC0CC;
 }
 
+#official-packages {
+  overflow: auto;
+}
+
 #official-packages tbody {
   border-color: var(--color-border);
   border-style: solid;
   border-width: 1px;
 }
 
+#official-packages tr {
+  vertical-align: top;
+}
+
 #official-packages :is(td, th) {
+  width: max-content;
   padding: var(--space-m) var(--space-m);
 }
 
@@ -265,6 +276,11 @@ code.microlight {
 
 #official-packages td:first-child img {
   margin-right: var(--space-s);
+}
+
+#twitter:hover path:nth-child(2) {
+  fill: var(--color-primary);
+  fill-opacity: 0.9;
 }
 
 .github-corner:hover .octo-arm {
@@ -295,12 +311,13 @@ code.microlight {
   }
 }
 
-#twitter:hover path:nth-child(2) {
-  fill: var(--color-primary);
-  fill-opacity: 0.9;
+@media (min-width: 60ch) {
+  body > footer {
+    flex-direction: row;
+  }
 }
 
-@media (min-width: 135ch) {
+@media (min-width: 125ch) {
   nav ul {
     flex-direction: row;
     align-items: baseline;
