@@ -20,4 +20,6 @@ jobs:
         run: lektor build
 
       - name: Deploy to GitHub Pages
+        with:
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
         run: lektor deploy ghpages
