@@ -2,9 +2,8 @@ name: CI
 
 on:
   push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+    branches:
+      - master
 
 jobs:
   build_and_deploy:
@@ -19,8 +18,17 @@ jobs:
       - name: Build site
         run: lektor build
 
+      - name: Add SSH key
+        env:
+          SSH_AUTH_SOCK: /tmp/ssh_agent.sock
+        run: |
+          mkdir -p /home/runner/.ssh
+          echo "${{ secrets.ACTIONS_DEPLOY_KEY }}" > /home/runner/.ssh/github_actions
+          chmod 600 /home/runner/.ssh/github_actions
+          ssh-agent -a $SSH_AUTH_SOCK > /dev/null   
+          ssh-add /home/runner/.ssh/github_actions
+
       - name: Deploy to GitHub Pages
-        shell: bash
-        with:
-          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+        env:
+          SSH_AUTH_SOCK: /tmp/ssh_agent.sock
         run: lektor deploy ghpages
