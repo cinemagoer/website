@@ -11,7 +11,7 @@ pip install -r requirements.txt
 - Start the live development server:
 
   ```
-  lektor serve
+  lektor server
   ```
 
 - Browse to the reported URL.
