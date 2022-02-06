@@ -1,0 +1,13 @@
+_model: newsitem
+---
+status: published
+---
+date: 2021-04-18
+---
+title: IMDbPY 2021-04-18 released
+---
+body:
+
+In the release 2021-04-18 (codename "Black Sails") of IMDbPY, multiple parsers were added and fixed. As always, IMDbPY is looking for developers; if you want to contribute, [contact us](https://lists.sourceforge.net/lists/listinfo/imdbpy-devel).
+
+For more details see the [latest changelog](https://imdbpy.readthedocs.io/en/latest/Changelog.html), including unreleased changes.
