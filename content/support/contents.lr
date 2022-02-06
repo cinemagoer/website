@@ -24,7 +24,6 @@ body:
   <div class="buttons">
     <a href="http://lists.sourceforge.net/lists/listinfo/imdbpy-help" class="button primary">Subscribe</a>
   </div>
-  <p><a href="mailto:imdbpy-help@lists.sourceforge.net">imdbpy-help@lists.sourceforge.net</a></p>
   <p>The mailing list is open also to non-subscribers (anyone can send emails) but is moderated by default:
     your first message needs to be approved; if it's on-topic, the succeeding ones will be automatically accepted.</p>
   <h3>Archives</h3>
@@ -37,6 +36,5 @@ body:
 
 <section>
   <h2>Stack Overflow</h2>
-  <p>You can search for the <a href="http://stackoverflow.com/questions/tagged/imdbpy">questions
-    tagged "imdbpy"</a> on stackoverflow.com.</p>
+  <p>You can search for <a href="http://stackoverflow.com/questions/tagged/imdbpy">this tag</a> on stackoverflow.com.</p>
 </section>
