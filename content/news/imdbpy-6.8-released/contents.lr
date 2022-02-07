@@ -1,4 +1,4 @@
-_model: newsitem
+_model: news-item
 ---
 status: published
 ---

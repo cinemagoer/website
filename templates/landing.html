@@ -15,7 +15,7 @@
 {% block body %}
 {{ this.body }}
 
-{% set news_items = site.query('/news').filter((F._model == 'news-item').and(F.status != 'expired')).order_by('-date').limit(3) %}
+{% set news_items = site.query('/news').filter((F._model == 'news-item').and(F.status != 'expired')).order_by('-date').limit(1) %}
 {% if news_items.count() > 0 %}
 {%   from "macros/news_item.html" import render_news_item %}
 <section>
