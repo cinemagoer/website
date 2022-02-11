@@ -33,7 +33,7 @@ body:
   <pre>
 <code class="language-python">from imdb import Cinemagoer
 
-# create an instance of the IMDb class
+# create an instance of the Cinemagoer class
 ia = Cinemagoer()
 
 # get a movie and print its director(s)
