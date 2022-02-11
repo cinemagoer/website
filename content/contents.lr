@@ -31,10 +31,10 @@ body:
 <section>
   <h3>Code example</h3>
   <pre>
-<code class="language-python">from imdb import IMDb
+<code class="language-python">from imdb import Cinemagoer
 
 # create an instance of the IMDb class
-ia = IMDb()
+ia = Cinemagoer()
 
 # get a movie and print its director(s)
 the_matrix = ia.get_movie('0133093')
