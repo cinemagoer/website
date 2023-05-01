@@ -1,0 +1,14 @@
+_model: news-item
+---
+status: published
+---
+date: 2023-05-01
+---
+title: Cinemagoer 2023.05.01
+---
+body:
+
+A small release containing just few fixes to the parsers.
+
+For more details see the [latest changelog](https://cinemagoer.readthedocs.io/en/latest/Changelog.html),
+including unreleased changes.

@@ -8,7 +8,7 @@ title: Cinemagoer 2022.12.27
 ---
 body:
 
-qiA quick-fix release to avoid problems fetching web pages. Please notice that for the moment the person pages will return a very limited list of movies for each role; this will be fixed in the future.
+A quick-fix release to avoid problems fetching web pages. Please notice that for the moment the person pages will return a very limited list of movies for each role; this will be fixed in the future.
 
 For more details see the [latest changelog](https://cinemagoer.readthedocs.io/en/latest/Changelog.html),
 including unreleased changes.
