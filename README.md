@@ -41,7 +41,7 @@ The `ecosystem` page consists of `project` elements.
 
 ## Style
 
-The stylesheet is `assets/static/main.css`.
+The stylesheet is `assets/static/cinemagoer.css`.
 
 ## Content Modeling
 
