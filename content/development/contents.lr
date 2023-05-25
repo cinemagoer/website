@@ -9,7 +9,6 @@ body:
   <div class="buttons">
     <a href="https://github.com/cinemagoer/cinemagoer" class="button secondary">GitHub Repo</a>
   </div>
-  <p><a href="https://bitbucket.org/alberanid/imdbpy">Bitbucket mirror</a></p>
 
   <h3>Bugs</h3>
   <div class="buttons">
