@@ -3,4 +3,6 @@ name = Cinemagoer
 included_assets = .nojekyll
 
 [servers.ghpages]
+name = GitHub Pages
+default = yes
 target = ghpages://cinemagoer/cinemagoer.github.io
