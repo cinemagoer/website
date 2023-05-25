@@ -1,9 +1,10 @@
 {
   "extends": [
-    "stylelint-config-rational-order"
+    "stylelint-stylistic/config",
+    "stylelint-config-property-sort-order-smacss"
   ],
   "rules": {
-    "indentation": 2,
+    "stylistic/indentation": 2,
     "rule-empty-line-before": [
       "always",
       {
@@ -21,11 +22,12 @@
         ]
       }
     ],
-    "block-opening-brace-space-before": "always",
-    "block-opening-brace-newline-after": "always",
-    "block-closing-brace-newline-before": "always",
-    "declaration-colon-space-after": "always",
-    "declaration-block-semicolon-newline-after": "always",
-    "declaration-block-trailing-semicolon": "always"
+    "stylistic/block-opening-brace-space-before": "always",
+    "stylistic/block-opening-brace-newline-after": "always",
+    "stylistic/block-closing-brace-newline-before": "always",
+    "stylistic/declaration-colon-space-before": "never",
+    "stylistic/declaration-colon-space-after": "always",
+    "stylistic/declaration-block-semicolon-newline-after": "always",
+    "stylistic/declaration-block-trailing-semicolon": "always"
   }
 }
