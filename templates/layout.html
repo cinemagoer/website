@@ -23,7 +23,7 @@
         <li class="{% if this._path == '/' %}active{% endif %}">
           <a id="logo" href="{{ '/' | url }}">Cinemagoer</a>
         </li>
-        {% for slug in bag('menus', 'main-nav') %}
+        {% for slug in ['downloads', 'support', 'development', 'ecosystem'] %}
           {% set menu_item = site.get('/' + slug) %}
         <li{% if this.is_child_of(menu_item) %} class="active" {% endif %}>
           <a href="{{ menu_item | url }}">{{ menu_item.title }}</a>
