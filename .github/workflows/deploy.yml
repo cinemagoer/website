@@ -12,8 +12,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       
-      - name: Install requirements
-        run: pip install -r requirements.txt
+      - name: Install Lektor
+        run: pip install lektor
 
       - name: Build site
         run: lektor build

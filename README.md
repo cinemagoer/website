@@ -5,7 +5,7 @@ The site uses the [Lektor](https://www.getlektor.com/) static site generator.
 Install the necessary packages:
 
 ```
-pip install -r requirements.txt
+pip install lektor
 ```
 
 - Start the live development server:
