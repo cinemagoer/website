@@ -1,0 +1,30 @@
+_model: news-item
+---
+status: published
+---
+date: 2026-06-27
+---
+title: Cinemagoer 2026.06.27
+---
+body:
+
+This release marks a significant change in scope for Cinemagoer.
+
+**Support for parsing IMDb web pages has been removed.** Starting in April 2026, IMDb introduced
+a web application firewall that prevents reliable scraping of its website. From that point, we can
+no longer guarantee that the package works as expected with IMDb web data, from both a technical
+and a legal standpoint.
+
+Cinemagoer now works exclusively with the
+[IMDb non-commercial downloadable datasets](https://datasets.imdbws.com/).
+
+If you still need IMDb web-page parsing, see [cinemagoerng](https://github.com/cinemagoerng/cinemagoerng),
+which is focused on that use case and requires you to provide the function used to fetch those pages.
+
+Other changes in this release:
+
+- Drop support for Python versions prior to 3.10
+- Switch to `pyproject.toml` configuration
+- Switch to using `uv` for package management
+
+For more details see the [latest changelog](https://cinemagoer.readthedocs.io/en/latest/Changelog.html).

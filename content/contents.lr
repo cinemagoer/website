@@ -6,7 +6,7 @@ body:
 
 <section>
   <h1>Cinemagoer (previously known as IMDbPY) is a Python package for retrieving and managing
-    the data of the IMDb movie database about movies and people.</h1>
+    data from the IMDb non-commercial downloadable datasets.</h1>
   <div class="buttons">
     <a href="./downloads" class="button primary">Downloads</a>
     <a href="https://cinemagoer.readthedocs.io/" class="button secondary">Read the Docs</a>
@@ -21,6 +21,20 @@ body:
 
 <article>
   <header>
+    <h3>Important notice</h3>
+  </header>
+  <div>
+    <p>Starting in April 2026, <strong>support for parsing IMDb web pages was removed</strong>.
+      Cinemagoer now works exclusively with the
+      <a href="https://datasets.imdbws.com/">IMDb non-commercial datasets</a>.</p>
+    <p>If you need IMDb web-page parsing, see
+      <a href="https://github.com/cinemagoerng/cinemagoerng">cinemagoerng</a>,
+      which is focused on that use case.</p>
+  </div>
+</article>
+
+<article>
+  <header>
     <h3>Disclaimer</h3>
   </header>
   <div>
@@ -30,29 +44,34 @@ body:
 
 <section>
   <h3>Code example</h3>
+  <p>Cinemagoer reads data from a local database populated from IMDb datasets.
+    First, download and import the data:</p>
+  <pre>
+<code class="language-bash"># Download the *.tsv.gz files from https://datasets.imdbws.com/
+download-from-s3
+
+# Import them into a local SQLite database
+s32cinemagoer.py /path/to/imdb-tsv-files/ sqlite:///cinemagoer.db</code>
+  </pre>
+  <p>Then use Cinemagoer to query the database:</p>
   <pre>
 <code class="language-python">from imdb import Cinemagoer
 
-# create an instance of the Cinemagoer class
-ia = Cinemagoer()
+# open the database populated with s32cinemagoer.py
+ia = Cinemagoer('s3', uri='sqlite:///cinemagoer.db')
 
 # get a movie and print its director(s)
 the_matrix = ia.get_movie('0133093')
 for director in the_matrix['directors']:
     print(director['name'])
 
-# show all information that are currently available for a movie
-print(sorted(the_matrix.keys()))
+# print the genres of the movie
+print(the_matrix['genres'])
 
-# show all information sets that can be fetched for a movie
-print(ia.get_movie_infoset())
-
-# update a Movie object with more information
-ia.update(the_matrix, ['technical'])
-# show which keys were added by the information set
-print(the_matrix.infoset2keys['technical'])
-# print one of the new keys
-print(the_matrix.get('tech'))</code>
+# search for a person by name
+people = ia.search_person('Keanu Reeves')
+for person in people:
+    print(person.personID, person['name'])</code>
   </pre>
 </section>
 
