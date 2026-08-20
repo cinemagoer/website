@@ -27,28 +27,6 @@ body:
   <div class="buttons">
     <p><a href="https://github.com/cinemagoer/cinemagoer/pulls" class="button secondary">Pull Requests</a></p>
   </div>
-  <p>Patches can also be submitted to the development mailing list (see below).</p>
 </section>
 
-<section>
-  <h2>Translation</h2>
-  <div class="buttons">
-    <p><a href="https://www.transifex.com/davide_alberani/imdbpy/" class="button secondary">Transifex</a></p>
-  </div>
-</section>
 
-<section>
-  <h2>Development Mailing List</h2>
-  <div class="buttons">
-   <p><a href="http://lists.sourceforge.net/lists/listinfo/imdbpy-devel" class="button secondary">Subscribe</a></p>
-  </div>
-  <p><a href="mailto:imdbpy-devel@lists.sourceforge.net">imdbpy-devel@lists.sourceforge.net</a></p>
-  <p>The mailing list is open also to non-subscribers (anyone can send emails) but is moderated by default:
-    your first message needs to be approved; if it's on-topic, the succeeding ones will be automatically accepted.</p>
-  <h3>Archives</h3>
-  <ul>
-    <li><a href="https://sourceforge.net/p/imdbpy/mailman/imdbpy-devel/">Sourceforge</a></li>
-    <li><a href="https://www.mail-archive.com/imdbpy-devel@lists.sourceforge.net/">mail-archive.com</a></li>
-    <li><a href="https://groups.google.com/forum/#!forum/imdbpy-devel">Google groups</a></li>
-  </ul>
-</section>
