@@ -1,0 +1,15 @@
+_model: news-item
+---
+status: published
+---
+date: 2026-08-20
+---
+title: Cinemagoer 2026.08.20
+---
+body:
+
+In this release SQLAlchemy was made an optional dependency: if not installed, you must use SQLite.
+
+We also improved performances, fixed bugs and introduced some small new features.
+
+For more details see the [latest changelog](https://cinemagoer.readthedocs.io/en/latest/Changelog.html).
